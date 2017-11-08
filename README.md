@@ -1,2 +1,2 @@
-# nics-lambda-processor
-Nics processors for AWS lambda.
+# nics-skyconnect-processor
+Node.js lambda processor for skyconnect avl integration.
