@@ -9,17 +9,11 @@ let upsertdb = (feedname, features = [], connectionparams) => new Promise((resol
     let AsOfDateLocalTZ = moment().tz("US/Pacific").format();
     let upsertrecord_querytext = 'Select upsert_geojson_avl_record($1, $2, $3, $4, $5)';
     const client = new Client(connectionparams);
-    let begintransaction = client.query('BEGIN');
-    let aborttransaction = client.query('ROLLBACK');
-    let committransaction = client.query('COMMIT');
-    let upsertrecords = features
-        .filter((feature) => {
-            return (feature.type === 'Feature' && feature.geometry.type === 'Point' && feature.properties !== null)
-        })
-        .map(({id, geometry, properties}) => client.query(upsertrecord_querytext, [feedname, id, AsOfDateLocalTZ,JSON.stringify(geometry), JSON.stringify(properties)]));
-
+    let validfeatures = features.filter((feature) => {
+        return (feature.type === 'Feature' && feature.geometry.type === 'Point' && feature.properties !== null)
+    });
     console.log('Current Timestamp is: ', AsOfDateLocalTZ);
-    console.log(`Total # of features: ${features.length}, Valid # of features: ${upsertrecords.length}`);
+    console.log(`Total # of features: ${features.length}, Valid # of features: ${validfeatures.length}`);
     //client connect() promise doesn't behave well, so using old school callback.
     client.connect((err) => {
         if (err) {
@@ -28,17 +22,17 @@ let upsertdb = (feedname, features = [], connectionparams) => new Promise((resol
         else {
             console.log('Connected to Db');
             //Start the work with chained promises.
-            begintransaction
-                .then(() => Promise.all(upsertrecords))
-                .then(() => console.log(`Successfully processed ${upsertrecords.length} records`))
-                .then(() => committransaction)
+            client.query('BEGIN')
+                .then(() => Promise.all(validfeatures.map(({id, geometry, properties}) => client.query(upsertrecord_querytext, [feedname, id, AsOfDateLocalTZ,JSON.stringify(geometry), JSON.stringify(properties)]))))
+                .then(() => console.log(`Successfully processed ${validfeatures.length} records`))
+                .then(() => client.query('COMMIT'))
                 .then(() => console.log(`Committed transaction`))
                 .then(() => client.end())
                 .then(() => console.log('Disconnected database client'))
                 .then(() => resolves({ timestamp: AsOfDateLocalTZ}))
                 .catch(e => {
                     console.error(`Error occurred during processing: ${e}`);
-                    aborttransaction
+                    client.query('ROLLBACK')
                         .then(() => console.error('Aborted transaction'))
                         .catch((e) => console.error(`Error aborting transaction: ${e}`))
                         .then(() => {console.error('Disconnecting Client'); client.end();})
