@@ -1,0 +1,25 @@
+{
+  "name": "skyconnecttracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Terry Weaver",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  },
+  "dependencies": {
+    "moment": "^2.19.1",
+    "moment-timezone": "^0.5.14",
+    "pg": "^7.3.0",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5",
+    "serverless": "^1.24.1",
+    "serverless-secrets": "^3.0.0-beta.11",
+    "xml2js": "^0.4.19"
+  }
+}
