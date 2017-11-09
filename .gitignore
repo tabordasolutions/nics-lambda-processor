@@ -62,3 +62,4 @@ typings/
 
 /data/
 /.serverless/
+/node_modules/
