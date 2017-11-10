@@ -20,12 +20,29 @@ describe('All Unit Tests', function() {
                 expect(themodule.validResult).to.be.a('function');
             });
         });
-        describe('Filter Latest Units tests', function() {
-            it('Should return data array with length greater than zero', function() {
+        describe('filterValidMessages', function() {
+            it('Should be a function', function() {
+                expect(themodule.filterValidMessages).to.be.a('function');
+            })
+        });
+        describe('Filter all Valid Messages', function() {
+            it('Should return correct messages', function() {
                 const data = testdata.valid_jsonfromxmlresult();
-                let filtered = themodule.latestMessagesPerUnit(data.SkyConnectData.Message);
+                let validmessages = themodule.filterValidMessages(data.SkyConnectData.Message);
+                expect(validmessages).to.be.an('array','result should be an array.');
+                expect(validmessages.length).to.equal(236);
+            })
+        });
+        describe('Filter to only latest message from units', function() {
+            it('Should return data array with length = 2', function() {
+                const validmessages = testdata.valid_messages();
+                let filtered = themodule.latestMessagesPerUnit(validmessages);
                 expect(filtered).to.be.an('array','result should be an array.');
-                expect(filtered.length).to.be.greaterThan(0);
+                expect(filtered.length).to.be.equal(2);
+                expect(filtered[0].Registration._).to.be.equal('N408KC');
+                expect(filtered[0].GPS.DateTime._).to.be.equal('2017-10-30T19:46:11+00:00');
+                expect(filtered[1].Registration._).to.be.equal('N407KC');
+                expect(filtered[1].GPS.DateTime._).to.be.equal('2017-10-30T18:19:31+00:00');
             });
         });
         describe('Validate json result', function() {
@@ -36,12 +53,15 @@ describe('All Unit Tests', function() {
             });
         });
         describe('Transform Latest messages to GeoJson', function() {
-            it('Should return an object', function() {
+            it('Should return a FeatureCollection with 2 features and EPSG:4326 projection', function() {
                 let geoJsonResult = themodule.transformToGeoJson(testdata.filtered_latestmessages());
                 expect(geoJsonResult).to.be.an('object');
+                expect(geoJsonResult.type).to.be.equal('FeatureCollection');
+                expect(geoJsonResult.crs.properties.name).to.be.equal('EPSG:4326');
+                expect(geoJsonResult.features.length).to.equal(2);
+
             });
         });
 
     });
-    //TODO: mock the db module and make tests.
 });
