@@ -14,6 +14,7 @@ module.exports.skyconnectparams = {
     secondaryhost: (process.env.SKYCONNECTHOST2 ? process.env.SKYCONNECTHOST2 : 'https://secondary.host/xml/service1.asmx/XmlResponse'),
     user: (process.env.SKYCONNECTUSER ? process.env.SKYCONNECTUSER : 'foo'),
     password: (process.env.SKYCONNECTPASSWORD ? process.env.SKYCONNECTPASSWORD : 'bar'),
+    requestsnewmessagesonly: (process.env.SKYCONNECT_ONLYNEWMESSAGES ? process.env.SKYCONNECT_ONLYNEWMESSAGES : 'N'),
     passworddecrypted: false
 };
 
