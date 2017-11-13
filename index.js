@@ -2,9 +2,9 @@ let skytracker = require('./skyconnecttracker');
 let db = require('./db');
 let {dbconnectionparams, skyconnectparams} = require('./connections'); //default connections.
 const moment = require('moment');
+const feedname = 'kerncounty_avl';
 
-
-let etlskyconnectdata = ({dboptions = dbconnectionparams, skyconnectoptions = skyconnectparams}) => new Promise((resolves,rejects) => {
+let etlskyconnectdata = (dboptions = dbconnectionparams, skyconnectoptions = skyconnectparams) => new Promise((resolves,rejects) => {
 
     const username = skyconnectoptions.user;
     const password = skyconnectoptions.password;
@@ -17,15 +17,13 @@ let etlskyconnectdata = ({dboptions = dbconnectionparams, skyconnectoptions = sk
         .then(result => {
             return processresult(result,dboptions);
         })
-        .then(() => resolves())
+        .then(result => resolves(result))
         .catch(error => {
             console.log(`Error processing from primary server: ${error}`);
             console.log('Trying secondary server: ', skyconnectoptions.secondaryhost);
             skytracker.requestJsonData(skyconnectoptions.secondaryhost + requestparams)
-                .then(result => {
-                    return processresult(result,dboptions);
-                })
-                .then(() => resolves())
+                .then(result => processresult(result,dboptions))
+                .then(timestamp => resolves(timestamp))
                 .catch(e => rejects(e))
         })
 });
@@ -36,11 +34,13 @@ let processresult = (result, dboptions) => {
     let validmessages = skytracker.filterValidMessages((result.SkyConnectData || {}).Message || []);
     let latestmessages = skytracker.latestMessagesPerUnit(validmessages);
     let geoJsonResult = skytracker.transformToGeoJson(latestmessages);
-    return db.upsertdb('kerncounty_avl', geoJsonResult.features, dboptions)
-        .then(result => db.deleteRecordsBefore(result.timestamp,'kerncounty_avl', null))
-        .then(result => console.log(result))
+    return db.upsertdb(feedname, geoJsonResult.features, dboptions)
 };
 
+let prunestaledata = (olderthan = moment().subtract(30,'days'), dboptions = dbconnectionparams) => {
+    return db.deleteRecordsBefore(olderthan,feedname,dboptions)
+};
 module.exports = {
-    etlskyconnectdata: etlskyconnectdata
+    etlskyconnectdata: etlskyconnectdata,
+    prunestaledata : prunestaledata
 };

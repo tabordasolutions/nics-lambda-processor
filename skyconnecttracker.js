@@ -30,7 +30,7 @@ let transformToGeoJson = (messages) => {
                 "properties": {
                     "name" : message.Registration._,
                     "messagetype": ((message.Type || {})._) ? message.Type._ : null,
-                    "lastupdate" : (message.GPS.DateTime || {})._ ? moment(message.GPS.DateTime._) : null,
+                    "gpsdatetime" : (message.GPS.DateTime || {})._ ? moment(message.GPS.DateTime._) : null,
                     "altitude" : ((message.GPS.Altitude || {})._) ? message.GPS.Altitude._ : null,
                     "altitudeunits" : ((message.GPS.Altitude || {}).units) ? message.GPS.Altitude.units : null,
                     "heading" : ((message.GPS.Heading || {})._) ? message.GPS.Heading._ : null,
@@ -93,7 +93,7 @@ let createDescription = (feature) => {
     let createEntry = (title, val) => `<b>${title}:</b>${val || 'N/A'}<br/>`;
     return createEntry('Registration', feature.properties.name) +
         createEntry('Message Type', feature.properties.messagetype) +
-        createEntry('GPS Time', moment(feature.properties.lastupdate)) +
+        createEntry('GPS Time', moment(feature.properties.gpsdatetime)) +
         createEntry('Altitude', `${(feature.properties.altitude || 'N/A')}  ${(feature.properties.altitudeunits || '')}`) +
         createEntry('Heading', `${(feature.properties.heading || 'N/A')}  ${(feature.properties.headingunits || '')}`) +
         createEntry('Speed', `${(feature.properties.speed || 'N/A')}  ${(feature.properties.speedunits || '')}`) +
