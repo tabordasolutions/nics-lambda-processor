@@ -1,4 +1,4 @@
-const mainmodule = require('./index');
+const processor = require('./processor');
 const secretsPromise = require('serverless-secrets/client').load(); //deployed with serverless.
 const moment = require('moment');
 
@@ -6,7 +6,7 @@ let {dbconnectionparams, skyconnectparams} = require('./connections'); //default
 
 let handler = function(event, context, callback) {
     if ( dbconnectionparams.passworddecrypted && skyconnectparams.passworddecrypted ) {
-        mainmodule.etlskyconnectdata({dboptions: dbconnectionparams,skyconnectoptions: skyconnectparams})
+        processor.etlskyconnectdata({dboptions: dbconnectionparams,skyconnectoptions: skyconnectparams})
             .then(() => console.log('Done.'))
             .catch(e => {
                 console.error('Error during processing:', e);
@@ -18,8 +18,8 @@ let handler = function(event, context, callback) {
             dbconnectionparams.passworddecrypted = true;
             skyconnectparams.password = process.env.SKYCONNECTPASSWORD;
             skyconnectparams.passworddecrypted = true;
-            mainmodule.etlskyconnectdata(dbconnectionparams, skyconnectparams)
-                .then(timestamp => mainmodule.prunestaledata(moment(timestamp).subtract(7, 'days'),dbconnectionparams))
+            processor.etlskyconnectdata(dbconnectionparams, skyconnectparams)
+                .then(timestamp => processor.prunestaledata(moment(timestamp).subtract(7, 'days'),dbconnectionparams))
                 .then(result => console.log(result + '. Done.'))
                 .catch(e => {
                     console.error('Error during processing:', e);

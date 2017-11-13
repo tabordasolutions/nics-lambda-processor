@@ -1,4 +1,4 @@
-let mainmodule = require('./index');
+let processor = require('./processor');
 let {dbconnectionparams, skyconnectparams} = require('./connections'); //default connections.
 const moment = require('moment');
 
@@ -12,8 +12,8 @@ let scparams = {
     passworddecrypted: true
 };
 
-mainmodule.etlskyconnectdata(dbparams,scparams)
-    .then(timestamp => mainmodule.prunestaledata(moment(timestamp).subtract(7, 'days'),dbconnectionparams))
+processor.etlskyconnectdata(dbparams,scparams)
+    .then(timestamp => processor.prunestaledata(moment(timestamp).subtract(7, 'days'),dbconnectionparams))
     .then(result => console.log(result + ' Done.'))
     .catch(e => {
         console.error('Error during processing:', e);
