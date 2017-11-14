@@ -1,0 +1,4152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SkyConnectData xmlns="http://www.skyconnecttracker.com/SkyConnect XML Format Release 9" DispatchTime="2017-10-26T14:09:03+00:00" Server="2">
+    <Message ID="387570125" Momsn="56891" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-21T16:03:42+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>2D</Signal>
+            <Latitude>38.261500</Latitude>
+            <Longitude>-122.611500</Longitude>
+            <Altitude units="Feet">72</Altitude>
+            <Heading units="degrees_true">0</Heading>
+            <Speed units="Knots">0</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-21T16:03:51+00:00</DateTime>
+            <Latitude>38.23853</Latitude>
+            <Longitude>-122.58690</Longitude>
+            <CEPRadius>21</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387570286" Momsn="56892" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-21T16:05:52+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>38.259333</Latitude>
+            <Longitude>-122.609333</Longitude>
+            <Altitude units="Feet">72</Altitude>
+            <Heading units="degrees_true">0</Heading>
+            <Speed units="Knots">0</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-21T16:05:57+00:00</DateTime>
+            <Latitude>38.25054</Latitude>
+            <Longitude>-122.54836</Longitude>
+            <CEPRadius>7</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387666697" Momsn="56894" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-22T15:13:28+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>NA</Signal>
+            <Latitude>38.855500</Latitude>
+            <Longitude>-94.799000</Longitude>
+            <Altitude units="Feet">0</Altitude>
+            <Heading units="degrees_true">0</Heading>
+            <Speed units="Knots">0</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-22T15:13:38+00:00</DateTime>
+            <Latitude>38.31916</Latitude>
+            <Longitude>-122.50979</Longitude>
+            <CEPRadius>13</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387768247" Momsn="56897" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T15:23:25+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>NA</Signal>
+            <Latitude>38.855500</Latitude>
+            <Longitude>-94.799000</Longitude>
+            <Altitude units="Feet">0</Altitude>
+            <Heading units="degrees_true">0</Heading>
+            <Speed units="Knots">0</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T15:23:35+00:00</DateTime>
+            <Latitude>38.23996</Latitude>
+            <Longitude>-122.75171</Longitude>
+            <CEPRadius>20</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387768484" Momsn="56898" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T15:25:42+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>38.259333</Latitude>
+            <Longitude>-122.609167</Longitude>
+            <Altitude units="Feet">118</Altitude>
+            <Heading units="degrees_true">104</Heading>
+            <Speed units="Knots">0</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T15:25:42+00:00</DateTime>
+            <Latitude>38.24530</Latitude>
+            <Longitude>-122.65005</Longitude>
+            <CEPRadius>9</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387768730" Momsn="56899" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T15:27:48+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>38.259333</Latitude>
+            <Longitude>-122.609333</Longitude>
+            <Altitude units="Feet">98</Altitude>
+            <Heading units="degrees_true">104</Heading>
+            <Speed units="Knots">0</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T15:27:52+00:00</DateTime>
+            <Latitude>38.27361</Latitude>
+            <Longitude>-122.65005</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387901590" Momsn="56992" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2091</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-24T17:14:39+00:00</DateTime>
+            <Receiver>Null</Receiver>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-24T17:14:44+00:00</DateTime>
+            <Latitude>35.20748</Latitude>
+            <Longitude>-119.13995</Longitude>
+            <CEPRadius>80</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387901786" Momsn="56993" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2091</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-24T17:16:48+00:00</DateTime>
+            <Receiver>Null</Receiver>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-24T17:16:50+00:00</DateTime>
+            <Latitude>35.21333</Latitude>
+            <Longitude>-119.29791</Longitude>
+            <CEPRadius>749</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387895647" Momsn="56984" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2091</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-24T16:19:01+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>NA</Signal>
+            <Latitude>2.557000</Latitude>
+            <Longitude>-133.520667</Longitude>
+            <Altitude units="Feet">0</Altitude>
+            <Heading units="degrees_true">0</Heading>
+            <Speed units="Knots">0</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-24T16:19:11+00:00</DateTime>
+            <Latitude>35.22852</Latitude>
+            <Longitude>-118.51220</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387900547" Momsn="56987" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2091</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-24T17:03:48+00:00</DateTime>
+            <Receiver>Null</Receiver>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-24T17:03:56+00:00</DateTime>
+            <Latitude>35.21859</Latitude>
+            <Longitude>-118.55082</Longitude>
+            <CEPRadius>6</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387900745" Momsn="56988" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2091</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-24T17:06:00+00:00</DateTime>
+            <Receiver>Null</Receiver>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-24T17:06:04+00:00</DateTime>
+            <Latitude>35.18077</Latitude>
+            <Longitude>-118.49123</Longitude>
+            <CEPRadius>15</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387900928" Momsn="56989" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2091</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-24T17:08:08+00:00</DateTime>
+            <Receiver>Null</Receiver>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-24T17:08:10+00:00</DateTime>
+            <Latitude>35.26313</Latitude>
+            <Longitude>-119.22120</Longitude>
+            <CEPRadius>156</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387901148" Momsn="56990" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2091</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-24T17:10:14+00:00</DateTime>
+            <Receiver>Null</Receiver>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-24T17:10:20+00:00</DateTime>
+            <Latitude>35.23579</Latitude>
+            <Longitude>-119.12296</Longitude>
+            <CEPRadius>102</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387901368" Momsn="56991" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2091</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-24T17:12:24+00:00</DateTime>
+            <Receiver>Null</Receiver>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-24T17:12:35+00:00</DateTime>
+            <Latitude>35.22165</Latitude>
+            <Longitude>-118.35435</Longitude>
+            <CEPRadius>14</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387787756" Momsn="56976" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2090</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T18:35:18+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.378500</Latitude>
+            <Longitude>-118.675500</Longitude>
+            <Altitude units="Feet">3819</Altitude>
+            <Heading units="degrees_true">147</Heading>
+            <Speed units="Knots">109</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T18:35:23+00:00</DateTime>
+            <Latitude>35.43898</Latitude>
+            <Longitude>-118.63508</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387787981" Momsn="56977" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2090</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T18:37:24+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.327000</Latitude>
+            <Longitude>-118.638000</Longitude>
+            <Altitude units="Feet">3602</Altitude>
+            <Heading units="degrees_true">150</Heading>
+            <Speed units="Knots">104</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T18:37:29+00:00</DateTime>
+            <Latitude>35.30409</Latitude>
+            <Longitude>-118.63153</Longitude>
+            <CEPRadius>2</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387788201" Momsn="56978" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2090</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T18:39:30+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.272500</Latitude>
+            <Longitude>-118.597333</Longitude>
+            <Altitude units="Feet">3274</Altitude>
+            <Heading units="degrees_true">150</Heading>
+            <Speed units="Knots">106</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T18:39:35+00:00</DateTime>
+            <Latitude>35.21859</Latitude>
+            <Longitude>-118.55082</Longitude>
+            <CEPRadius>4</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387788441" Momsn="56979" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2090</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T18:41:36+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.228833</Latitude>
+            <Longitude>-118.566333</Longitude>
+            <Altitude units="Feet">2822</Altitude>
+            <Heading units="degrees_true">154</Heading>
+            <Speed units="Knots">52</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T18:41:42+00:00</DateTime>
+            <Latitude>35.30729</Latitude>
+            <Longitude>-118.43487</Longitude>
+            <CEPRadius>8</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387788851" Momsn="56981" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2090</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T18:45:30+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.225000</Latitude>
+            <Longitude>-118.565833</Longitude>
+            <Altitude units="Feet">2523</Altitude>
+            <Heading units="degrees_true">332</Heading>
+            <Speed units="Knots">0</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T18:45:35+00:00</DateTime>
+            <Latitude>35.20864</Latitude>
+            <Longitude>-118.58942</Longitude>
+            <CEPRadius>2</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387789085" Momsn="56982" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2090</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T18:47:36+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.225000</Latitude>
+            <Longitude>-118.565833</Longitude>
+            <Altitude units="Feet">2536</Altitude>
+            <Heading units="degrees_true">332</Heading>
+            <Speed units="Knots">0</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T18:47:43+00:00</DateTime>
+            <Latitude>35.18911</Latitude>
+            <Longitude>-118.55082</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387786462" Momsn="56970" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2090</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T18:22:26+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.725500</Latitude>
+            <Longitude>-118.937000</Longitude>
+            <Altitude units="Feet">3615</Altitude>
+            <Heading units="degrees_true">150</Heading>
+            <Speed units="Knots">116</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T18:22:32+00:00</DateTime>
+            <Latitude>35.62629</Latitude>
+            <Longitude>-118.91727</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387786672" Momsn="56971" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2090</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T18:24:33+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.666500</Latitude>
+            <Longitude>-118.894333</Longitude>
+            <Altitude units="Feet">3681</Altitude>
+            <Heading units="degrees_true">149</Heading>
+            <Speed units="Knots">117</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T18:24:41+00:00</DateTime>
+            <Latitude>35.53908</Latitude>
+            <Longitude>-118.93456</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387786900" Momsn="56972" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2090</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T18:26:43+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.607333</Latitude>
+            <Longitude>-118.847667</Longitude>
+            <Altitude units="Feet">3691</Altitude>
+            <Heading units="degrees_true">149</Heading>
+            <Speed units="Knots">114</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T18:26:52+00:00</DateTime>
+            <Latitude>35.67591</Latitude>
+            <Longitude>-118.83985</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387787098" Momsn="56973" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2090</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T18:28:53+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.548667</Latitude>
+            <Longitude>-118.802333</Longitude>
+            <Altitude units="Feet">3701</Altitude>
+            <Heading units="degrees_true">147</Heading>
+            <Speed units="Knots">115</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T18:28:59+00:00</DateTime>
+            <Latitude>35.52261</Latitude>
+            <Longitude>-118.81466</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387787303" Momsn="56974" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2090</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T18:31:00+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.491833</Latitude>
+            <Longitude>-118.760833</Longitude>
+            <Altitude units="Feet">3691</Altitude>
+            <Heading units="degrees_true">150</Heading>
+            <Speed units="Knots">112</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T18:31:11+00:00</DateTime>
+            <Latitude>35.38953</Latitude>
+            <Longitude>-118.71239</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387787539" Momsn="56975" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2090</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T18:33:12+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.432333</Latitude>
+            <Longitude>-118.716667</Longitude>
+            <Altitude units="Feet">3917</Altitude>
+            <Heading units="degrees_true">150</Heading>
+            <Speed units="Knots">106</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T18:33:17+00:00</DateTime>
+            <Latitude>35.58556</Latitude>
+            <Longitude>-118.50118</Longitude>
+            <CEPRadius>6</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387785250" Momsn="56964" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2090</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T18:09:43+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>36.075500</Latitude>
+            <Longitude>-119.199000</Longitude>
+            <Altitude units="Feet">3586</Altitude>
+            <Heading units="degrees_true">149</Heading>
+            <Speed units="Knots">115</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T18:09:51+00:00</DateTime>
+            <Latitude>36.14119</Latitude>
+            <Longitude>-119.21004</Longitude>
+            <CEPRadius>6</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387785449" Momsn="56965" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2090</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T18:11:52+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>36.017500</Latitude>
+            <Longitude>-119.151667</Longitude>
+            <Altitude units="Feet">3530</Altitude>
+            <Heading units="degrees_true">147</Heading>
+            <Speed units="Knots">113</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T18:11:58+00:00</DateTime>
+            <Latitude>35.96899</Latitude>
+            <Longitude>-119.14509</Longitude>
+            <CEPRadius>4</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387785635" Momsn="56966" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2090</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T18:13:59+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.961333</Latitude>
+            <Longitude>-119.107333</Longitude>
+            <Altitude units="Feet">3484</Altitude>
+            <Heading units="degrees_true">146</Heading>
+            <Speed units="Knots">111</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T18:14:04+00:00</DateTime>
+            <Latitude>35.87362</Latitude>
+            <Longitude>-119.10194</Longitude>
+            <CEPRadius>2</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387785848" Momsn="56967" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2090</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T18:16:05+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.904333</Latitude>
+            <Longitude>-119.065667</Longitude>
+            <Altitude units="Feet">3566</Altitude>
+            <Heading units="degrees_true">151</Heading>
+            <Speed units="Knots">119</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T18:16:11+00:00</DateTime>
+            <Latitude>35.76532</Latitude>
+            <Longitude>-119.17930</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387786027" Momsn="56968" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2090</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T18:18:11+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.844167</Latitude>
+            <Longitude>-119.024333</Longitude>
+            <Altitude units="Feet">3451</Altitude>
+            <Heading units="degrees_true">151</Heading>
+            <Speed units="Knots">119</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T18:18:18+00:00</DateTime>
+            <Latitude>35.89416</Latitude>
+            <Longitude>-119.02446</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387786235" Momsn="56969" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2090</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T18:20:19+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.784667</Latitude>
+            <Longitude>-118.981667</Longitude>
+            <Altitude units="Feet">3474</Altitude>
+            <Heading units="degrees_true">148</Heading>
+            <Speed units="Knots">119</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T18:20:25+00:00</DateTime>
+            <Latitude>35.76121</Latitude>
+            <Longitude>-118.92133</Longitude>
+            <CEPRadius>4</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387784027" Momsn="56958" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2090</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T17:56:54+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>36.417333</Latitude>
+            <Longitude>-119.454167</Longitude>
+            <Altitude units="Feet">3327</Altitude>
+            <Heading units="degrees_true">153</Heading>
+            <Speed units="Knots">111</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T17:57:02+00:00</DateTime>
+            <Latitude>36.32721</Latitude>
+            <Longitude>-119.49613</Longitude>
+            <CEPRadius>2</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387784232" Momsn="56959" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2090</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T17:59:02+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>36.358833</Latitude>
+            <Longitude>-119.417500</Longitude>
+            <Altitude units="Feet">3353</Altitude>
+            <Heading units="degrees_true">154</Heading>
+            <Speed units="Knots">114</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T17:59:09+00:00</DateTime>
+            <Latitude>36.23491</Latitude>
+            <Longitude>-119.71176</Longitude>
+            <CEPRadius>6</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387784425" Momsn="56960" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2090</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T18:01:09+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>36.304667</Latitude>
+            <Longitude>-119.371500</Longitude>
+            <Altitude units="Feet">3373</Altitude>
+            <Heading units="degrees_true">144</Heading>
+            <Speed units="Knots">112</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T18:01:14+00:00</DateTime>
+            <Latitude>36.32961</Latitude>
+            <Longitude>-119.39660</Longitude>
+            <CEPRadius>6</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387784638" Momsn="56961" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2090</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T18:03:15+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>36.251500</Latitude>
+            <Longitude>-119.327000</Longitude>
+            <Altitude units="Feet">3428</Altitude>
+            <Heading units="degrees_true">147</Heading>
+            <Speed units="Knots">113</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T18:03:20+00:00</DateTime>
+            <Latitude>36.19704</Latitude>
+            <Longitude>-119.29231</Longitude>
+            <CEPRadius>4</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387784846" Momsn="56962" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2090</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T18:05:21+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>36.195667</Latitude>
+            <Longitude>-119.283167</Longitude>
+            <Altitude units="Feet">3520</Altitude>
+            <Heading units="degrees_true">148</Heading>
+            <Speed units="Knots">117</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T18:05:33+00:00</DateTime>
+            <Latitude>36.12023</Latitude>
+            <Longitude>-119.27055</Longitude>
+            <CEPRadius>2</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387785033" Momsn="56963" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2090</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T18:07:34+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>36.135000</Latitude>
+            <Longitude>-119.239333</Longitude>
+            <Altitude units="Feet">3537</Altitude>
+            <Heading units="degrees_true">151</Heading>
+            <Speed units="Knots">114</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T18:07:43+00:00</DateTime>
+            <Latitude>36.02027</Latitude>
+            <Longitude>-119.42547</Longitude>
+            <CEPRadius>4</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387782774" Momsn="56952" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2090</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T17:43:55+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>36.756833</Latitude>
+            <Longitude>-119.666667</Longitude>
+            <Altitude units="Feet">1286</Altitude>
+            <Heading units="degrees_true">137</Heading>
+            <Speed units="Knots">97</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T17:44:07+00:00</DateTime>
+            <Latitude>36.73736</Latitude>
+            <Longitude>-119.67263</Longitude>
+            <CEPRadius>4</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387782984" Momsn="56953" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2090</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T17:46:07+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>36.700833</Latitude>
+            <Longitude>-119.628333</Longitude>
+            <Altitude units="Feet">1358</Altitude>
+            <Heading units="degrees_true">169</Heading>
+            <Speed units="Knots">111</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T17:46:12+00:00</DateTime>
+            <Latitude>36.68163</Latitude>
+            <Longitude>-119.58941</Longitude>
+            <CEPRadius>2</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387783213" Momsn="56954" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2090</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T17:48:13+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>36.638667</Latitude>
+            <Longitude>-119.611833</Longitude>
+            <Altitude units="Feet">1795</Altitude>
+            <Heading units="degrees_true">167</Heading>
+            <Speed units="Knots">107</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T17:48:26+00:00</DateTime>
+            <Latitude>36.55222</Latitude>
+            <Longitude>-119.74488</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387783390" Momsn="56955" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2090</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T17:50:26+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>36.577167</Latitude>
+            <Longitude>-119.584167</Longitude>
+            <Altitude units="Feet">2438</Altitude>
+            <Heading units="degrees_true">143</Heading>
+            <Speed units="Knots">104</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T17:50:35+00:00</DateTime>
+            <Latitude>36.46732</Latitude>
+            <Longitude>-120.02180</Longitude>
+            <CEPRadius>9</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387783616" Momsn="56956" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2090</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T17:52:35+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>36.528667</Latitude>
+            <Longitude>-119.536833</Longitude>
+            <Altitude units="Feet">3182</Altitude>
+            <Heading units="degrees_true">152</Heading>
+            <Speed units="Knots">110</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T17:52:45+00:00</DateTime>
+            <Latitude>36.41194</Latitude>
+            <Longitude>-120.55828</Longitude>
+            <CEPRadius>20</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387783827" Momsn="56957" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2090</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T17:54:46+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>36.472333</Latitude>
+            <Longitude>-119.495833</Longitude>
+            <Altitude units="Feet">3494</Altitude>
+            <Heading units="degrees_true">146</Heading>
+            <Speed units="Knots">108</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T17:54:52+00:00</DateTime>
+            <Latitude>36.45396</Latitude>
+            <Longitude>-119.44041</Longitude>
+            <CEPRadius>2</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387778889" Momsn="56943" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T17:01:32+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>36.778167</Latitude>
+            <Longitude>-119.729667</Longitude>
+            <Altitude units="Feet">325</Altitude>
+            <Heading units="degrees_true">297</Heading>
+            <Speed units="Knots">0</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T17:02:05+00:00</DateTime>
+            <Latitude>36.74541</Latitude>
+            <Longitude>-119.73376</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387779103" Momsn="56945" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T17:04:12+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>36.778167</Latitude>
+            <Longitude>-119.729667</Longitude>
+            <Altitude units="Feet">325</Altitude>
+            <Heading units="degrees_true">297</Heading>
+            <Speed units="Knots">0</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T17:04:17+00:00</DateTime>
+            <Latitude>36.73736</Latitude>
+            <Longitude>-119.67263</Longitude>
+            <CEPRadius>9</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387779324" Momsn="56946" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T17:06:18+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>36.778167</Latitude>
+            <Longitude>-119.729667</Longitude>
+            <Altitude units="Feet">318</Altitude>
+            <Heading units="degrees_true">297</Heading>
+            <Speed units="Knots">0</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T17:06:23+00:00</DateTime>
+            <Latitude>36.82193</Latitude>
+            <Longitude>-119.75601</Longitude>
+            <CEPRadius>18</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387782132" Momsn="56948" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2090</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T17:36:45+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>36.778167</Latitude>
+            <Longitude>-119.729667</Longitude>
+            <Altitude units="Feet">308</Altitude>
+            <Heading units="degrees_true">226</Heading>
+            <Speed units="Knots">0</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T17:36:54+00:00</DateTime>
+            <Latitude>36.78500</Latitude>
+            <Longitude>-119.69483</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387782302" Momsn="56949" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2090</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T17:38:55+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>36.778167</Latitude>
+            <Longitude>-119.729667</Longitude>
+            <Altitude units="Feet">312</Altitude>
+            <Heading units="degrees_true">226</Heading>
+            <Speed units="Knots">0</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T17:39:00+00:00</DateTime>
+            <Latitude>36.74541</Latitude>
+            <Longitude>-119.73376</Longitude>
+            <CEPRadius>4</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387782504" Momsn="56950" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2090</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T17:41:01+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>36.778167</Latitude>
+            <Longitude>-119.729667</Longitude>
+            <Altitude units="Feet">295</Altitude>
+            <Heading units="degrees_true">226</Heading>
+            <Speed units="Knots">0</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T17:41:11+00:00</DateTime>
+            <Latitude>36.73196</Latitude>
+            <Longitude>-119.87269</Longitude>
+            <CEPRadius>12</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387777506" Momsn="56937" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T16:48:39+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>36.967667</Latitude>
+            <Longitude>-120.031667</Longitude>
+            <Altitude units="Feet">1680</Altitude>
+            <Heading units="degrees_true">127</Heading>
+            <Speed units="Knots">111</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T16:48:43+00:00</DateTime>
+            <Latitude>37.08885</Latitude>
+            <Longitude>-119.86769</Longitude>
+            <CEPRadius>4</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387777742" Momsn="56938" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T16:50:45+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>36.927000</Latitude>
+            <Longitude>-119.967500</Longitude>
+            <Altitude units="Feet">1670</Altitude>
+            <Heading units="degrees_true">126</Heading>
+            <Speed units="Knots">114</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T16:50:49+00:00</DateTime>
+            <Latitude>37.04925</Latitude>
+            <Longitude>-119.90670</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387777927" Momsn="56939" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T16:52:51+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>36.884333</Latitude>
+            <Longitude>-119.904667</Longitude>
+            <Altitude units="Feet">1581</Altitude>
+            <Heading units="degrees_true">133</Heading>
+            <Speed units="Knots">114</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T16:52:56+00:00</DateTime>
+            <Latitude>36.87477</Latitude>
+            <Longitude>-119.93976</Longitude>
+            <CEPRadius>2</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387778170" Momsn="56940" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T16:54:57+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>36.842833</Latitude>
+            <Longitude>-119.841667</Longitude>
+            <Altitude units="Feet">1611</Altitude>
+            <Heading units="degrees_true">126</Heading>
+            <Speed units="Knots">114</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T16:55:17+00:00</DateTime>
+            <Latitude>36.95383</Latitude>
+            <Longitude>-119.49970</Longitude>
+            <CEPRadius>7</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387778393" Momsn="56941" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T16:57:18+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>36.800667</Latitude>
+            <Longitude>-119.769167</Longitude>
+            <Altitude units="Feet">1299</Altitude>
+            <Heading units="degrees_true">125</Heading>
+            <Speed units="Knots">103</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T16:57:25+00:00</DateTime>
+            <Latitude>36.90615</Latitude>
+            <Longitude>-119.47759</Longitude>
+            <CEPRadius>10</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387778613" Momsn="56942" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T16:59:26+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>36.779000</Latitude>
+            <Longitude>-119.729833</Longitude>
+            <Altitude units="Feet">348</Altitude>
+            <Heading units="degrees_true">130</Heading>
+            <Speed units="Knots">23</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T16:59:31+00:00</DateTime>
+            <Latitude>36.79305</Latitude>
+            <Longitude>-119.75601</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387776208" Momsn="56931" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T16:35:42+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>37.172833</Latitude>
+            <Longitude>-120.437333</Longitude>
+            <Altitude units="Feet">1329</Altitude>
+            <Heading units="degrees_true">118</Heading>
+            <Speed units="Knots">108</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T16:35:49+00:00</DateTime>
+            <Latitude>37.17653</Latitude>
+            <Longitude>-120.47697</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387776419" Momsn="56932" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T16:37:50+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>37.143000</Latitude>
+            <Longitude>-120.367833</Longitude>
+            <Altitude units="Feet">1460</Altitude>
+            <Heading units="degrees_true">119</Heading>
+            <Speed units="Knots">105</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T16:38:01+00:00</DateTime>
+            <Latitude>37.09574</Latitude>
+            <Longitude>-120.29208</Longitude>
+            <CEPRadius>7</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387776629" Momsn="56933" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T16:40:02+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>37.111000</Latitude>
+            <Longitude>-120.297333</Longitude>
+            <Altitude units="Feet">1309</Altitude>
+            <Heading units="degrees_true">120</Heading>
+            <Speed units="Knots">103</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T16:40:09+00:00</DateTime>
+            <Latitude>37.22579</Latitude>
+            <Longitude>-120.13635</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387776856" Momsn="56934" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T16:42:10+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>37.078000</Latitude>
+            <Longitude>-120.231000</Longitude>
+            <Altitude units="Feet">1407</Altitude>
+            <Heading units="degrees_true">127</Heading>
+            <Speed units="Knots">108</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T16:42:20+00:00</DateTime>
+            <Latitude>37.18612</Latitude>
+            <Longitude>-120.17533</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387777074" Momsn="56935" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T16:44:21+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>37.044333</Latitude>
+            <Longitude>-120.162000</Longitude>
+            <Altitude units="Feet">1447</Altitude>
+            <Heading units="degrees_true">120</Heading>
+            <Speed units="Knots">109</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T16:44:27+00:00</DateTime>
+            <Latitude>37.15738</Latitude>
+            <Longitude>-120.17533</Longitude>
+            <CEPRadius>4</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387777284" Momsn="56936" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T16:46:28+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>37.006667</Latitude>
+            <Longitude>-120.099000</Longitude>
+            <Altitude units="Feet">1634</Altitude>
+            <Heading units="degrees_true">129</Heading>
+            <Speed units="Knots">107</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T16:46:38+00:00</DateTime>
+            <Latitude>37.18404</Latitude>
+            <Longitude>-119.54924</Longitude>
+            <CEPRadius>14</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387774740" Momsn="56925" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T16:22:27+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>37.407167</Latitude>
+            <Longitude>-120.851833</Longitude>
+            <Altitude units="Feet">1460</Altitude>
+            <Heading units="degrees_true">129</Heading>
+            <Speed units="Knots">119</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T16:22:31+00:00</DateTime>
+            <Latitude>37.47689</Latitude>
+            <Longitude>-120.73864</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387774965" Momsn="56926" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T16:24:33+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>37.362000</Latitude>
+            <Longitude>-120.787167</Longitude>
+            <Altitude units="Feet">1401</Altitude>
+            <Heading units="degrees_true">130</Heading>
+            <Speed units="Knots">121</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T16:24:38+00:00</DateTime>
+            <Latitude>37.44682</Latitude>
+            <Longitude>-120.75439</Longitude>
+            <CEPRadius>2</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387775250" Momsn="56927" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T16:26:40+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>37.318333</Latitude>
+            <Longitude>-120.720167</Longitude>
+            <Altitude units="Feet">1437</Altitude>
+            <Heading units="degrees_true">126</Heading>
+            <Speed units="Knots">116</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T16:27:13+00:00</DateTime>
+            <Latitude>37.37072</Latitude>
+            <Longitude>-120.73129</Longitude>
+            <CEPRadius>5</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387775490" Momsn="56928" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T16:29:14+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>37.273833</Latitude>
+            <Longitude>-120.638167</Longitude>
+            <Altitude units="Feet">1470</Altitude>
+            <Heading units="degrees_true">123</Heading>
+            <Speed units="Knots">109</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T16:29:21+00:00</DateTime>
+            <Latitude>37.37320</Latitude>
+            <Longitude>-120.36703</Longitude>
+            <CEPRadius>5</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387775717" Momsn="56929" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T16:31:22+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>37.240333</Latitude>
+            <Longitude>-120.572000</Longitude>
+            <Altitude units="Feet">1296</Altitude>
+            <Heading units="degrees_true">121</Heading>
+            <Speed units="Knots">104</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T16:31:33+00:00</DateTime>
+            <Latitude>37.32239</Latitude>
+            <Longitude>-120.44494</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387775977" Momsn="56930" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T16:33:34+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>37.204167</Latitude>
+            <Longitude>-120.505167</Longitude>
+            <Altitude units="Feet">1309</Altitude>
+            <Heading units="degrees_true">123</Heading>
+            <Speed units="Knots">108</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T16:33:38+00:00</DateTime>
+            <Latitude>37.31130</Latitude>
+            <Longitude>-120.48385</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387773377" Momsn="56919" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T16:09:43+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>37.698167</Latitude>
+            <Longitude>-121.238333</Longitude>
+            <Altitude units="Feet">1512</Altitude>
+            <Heading units="degrees_true">133</Heading>
+            <Speed units="Knots">116</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T16:09:48+00:00</DateTime>
+            <Latitude>37.69146</Latitude>
+            <Longitude>-121.19723</Longitude>
+            <CEPRadius>10</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387773598" Momsn="56920" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T16:11:49+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>37.649833</Latitude>
+            <Longitude>-121.177833</Longitude>
+            <Altitude units="Feet">1430</Altitude>
+            <Heading units="degrees_true">140</Heading>
+            <Speed units="Knots">119</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T16:11:58+00:00</DateTime>
+            <Latitude>37.72021</Latitude>
+            <Longitude>-120.93263</Longitude>
+            <CEPRadius>4</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387773834" Momsn="56921" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T16:13:59+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>37.597333</Latitude>
+            <Longitude>-121.115500</Longitude>
+            <Altitude units="Feet">1440</Altitude>
+            <Heading units="degrees_true">137</Heading>
+            <Speed units="Knots">121</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T16:14:07+00:00</DateTime>
+            <Latitude>37.64798</Latitude>
+            <Longitude>-121.07265</Longitude>
+            <CEPRadius>2</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387774066" Momsn="56922" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T16:16:08+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>37.544500</Latitude>
+            <Longitude>-121.055500</Longitude>
+            <Altitude units="Feet">1693</Altitude>
+            <Heading units="degrees_true">130</Heading>
+            <Speed units="Knots">127</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T16:16:12+00:00</DateTime>
+            <Latitude>37.60056</Latitude>
+            <Longitude>-121.04926</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387774273" Momsn="56923" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T16:18:14+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>37.496833</Latitude>
+            <Longitude>-120.986667</Longitude>
+            <Altitude units="Feet">1394</Altitude>
+            <Heading units="degrees_true">127</Heading>
+            <Speed units="Knots">121</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T16:18:18+00:00</DateTime>
+            <Latitude>37.51702</Latitude>
+            <Longitude>-120.96376</Longitude>
+            <CEPRadius>6</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387774495" Momsn="56924" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T16:20:20+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>37.452167</Latitude>
+            <Longitude>-120.919333</Longitude>
+            <Altitude units="Feet">1437</Altitude>
+            <Heading units="degrees_true">130</Heading>
+            <Speed units="Knots">114</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T16:20:26+00:00</DateTime>
+            <Latitude>37.55653</Latitude>
+            <Longitude>-120.66077</Longitude>
+            <CEPRadius>5</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387771977" Momsn="56913" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T15:57:05+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>37.930667</Latitude>
+            <Longitude>-121.671000</Longitude>
+            <Altitude units="Feet">1644</Altitude>
+            <Heading units="degrees_true">127</Heading>
+            <Speed units="Knots">123</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T15:57:10+00:00</DateTime>
+            <Latitude>37.94415</Latitude>
+            <Longitude>-121.61943</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387772197" Momsn="56914" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T15:59:12+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>37.888833</Latitude>
+            <Longitude>-121.595667</Longitude>
+            <Altitude units="Feet">1578</Altitude>
+            <Heading units="degrees_true">129</Heading>
+            <Speed units="Knots">127</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T15:59:16+00:00</DateTime>
+            <Latitude>37.86537</Latitude>
+            <Longitude>-121.43172</Longitude>
+            <CEPRadius>8</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387772435" Momsn="56915" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T16:01:17+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>37.847833</Latitude>
+            <Longitude>-121.523333</Longitude>
+            <Altitude units="Feet">1909</Altitude>
+            <Heading units="degrees_true">123</Heading>
+            <Speed units="Knots">117</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T16:01:25+00:00</DateTime>
+            <Latitude>37.91748</Latitude>
+            <Longitude>-121.08865</Longitude>
+            <CEPRadius>9</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387772687" Momsn="56916" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T16:03:26+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>37.811167</Latitude>
+            <Longitude>-121.445000</Longitude>
+            <Altitude units="Feet">1444</Altitude>
+            <Heading units="degrees_true">118</Heading>
+            <Speed units="Knots">102</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T16:03:30+00:00</DateTime>
+            <Latitude>37.86212</Latitude>
+            <Longitude>-121.26790</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387772952" Momsn="56917" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T16:05:31+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>37.778167</Latitude>
+            <Longitude>-121.373667</Longitude>
+            <Altitude units="Feet">1499</Altitude>
+            <Heading units="degrees_true">122</Heading>
+            <Speed units="Knots">112</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T16:05:36+00:00</DateTime>
+            <Latitude>37.82216</Latitude>
+            <Longitude>-121.30675</Longitude>
+            <CEPRadius>2</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387773150" Momsn="56918" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T16:07:37+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>37.745000</Latitude>
+            <Longitude>-121.300167</Longitude>
+            <Altitude units="Feet">1519</Altitude>
+            <Heading units="degrees_true">121</Heading>
+            <Speed units="Knots">116</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T16:07:42+00:00</DateTime>
+            <Latitude>37.77479</Latitude>
+            <Longitude>-121.28315</Longitude>
+            <CEPRadius>4</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387770568" Momsn="56907" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T15:44:21+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>38.171667</Latitude>
+            <Longitude>-122.084333</Longitude>
+            <Altitude units="Feet">794</Altitude>
+            <Heading units="degrees_true">113</Heading>
+            <Speed units="Knots">104</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T15:44:32+00:00</DateTime>
+            <Latitude>38.18942</Latitude>
+            <Longitude>-121.53568</Longitude>
+            <CEPRadius>14</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387770801" Momsn="56908" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T15:46:33+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>38.143333</Latitude>
+            <Longitude>-122.012500</Longitude>
+            <Altitude units="Feet">988</Altitude>
+            <Heading units="degrees_true">126</Heading>
+            <Speed units="Knots">102</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T15:46:37+00:00</DateTime>
+            <Latitude>38.14054</Latitude>
+            <Longitude>-121.77796</Longitude>
+            <CEPRadius>6</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387771010" Momsn="56909" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T15:48:39+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>38.098500</Latitude>
+            <Longitude>-121.949667</Longitude>
+            <Altitude units="Feet">1119</Altitude>
+            <Heading units="degrees_true">135</Heading>
+            <Speed units="Knots">120</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T15:48:46+00:00</DateTime>
+            <Latitude>38.09326</Latitude>
+            <Longitude>-121.75394</Longitude>
+            <CEPRadius>9</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387771239" Momsn="56910" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T15:50:47+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>38.044667</Latitude>
+            <Longitude>-121.890500</Longitude>
+            <Altitude units="Feet">1306</Altitude>
+            <Heading units="degrees_true">142</Heading>
+            <Speed units="Knots">122</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T15:50:52+00:00</DateTime>
+            <Latitude>38.00478</Latitude>
+            <Longitude>-121.07316</Longitude>
+            <CEPRadius>20</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387771476" Momsn="56911" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T15:52:54+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>37.997333</Latitude>
+            <Longitude>-121.823833</Longitude>
+            <Altitude units="Feet">1673</Altitude>
+            <Heading units="degrees_true">123</Heading>
+            <Speed units="Knots">122</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T15:52:58+00:00</DateTime>
+            <Latitude>38.05900</Latitude>
+            <Longitude>-121.42524</Longitude>
+            <CEPRadius>10</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387771720" Momsn="56912" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T15:54:59+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>37.966667</Latitude>
+            <Longitude>-121.746667</Longitude>
+            <Altitude units="Feet">1916</Altitude>
+            <Heading units="degrees_true">114</Heading>
+            <Speed units="Knots">123</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T15:55:04+00:00</DateTime>
+            <Latitude>38.00309</Latitude>
+            <Longitude>-121.60452</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387769157" Momsn="56901" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T15:31:39+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>38.258000</Latitude>
+            <Longitude>-122.543500</Longitude>
+            <Altitude units="Feet">1421</Altitude>
+            <Heading units="degrees_true">102</Heading>
+            <Speed units="Knots">98</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T15:31:44+00:00</DateTime>
+            <Latitude>38.23325</Latitude>
+            <Longitude>-122.68854</Longitude>
+            <CEPRadius>9</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387769375" Momsn="56902" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T15:33:45+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>38.246333</Latitude>
+            <Longitude>-122.468000</Longitude>
+            <Altitude units="Feet">1555</Altitude>
+            <Heading units="degrees_true">100</Heading>
+            <Speed units="Knots">108</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T15:33:50+00:00</DateTime>
+            <Latitude>38.22788</Latitude>
+            <Longitude>-122.79014</Longitude>
+            <CEPRadius>31</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387769598" Momsn="56903" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T15:35:51+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>38.232167</Latitude>
+            <Longitude>-122.389500</Longitude>
+            <Altitude units="Feet">1401</Altitude>
+            <Heading units="degrees_true">103</Heading>
+            <Speed units="Knots">108</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T15:35:56+00:00</DateTime>
+            <Latitude>38.28929</Latitude>
+            <Longitude>-121.21485</Longitude>
+            <CEPRadius>136</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387769845" Momsn="56904" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T15:37:58+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>38.219333</Latitude>
+            <Longitude>-122.311167</Longitude>
+            <Altitude units="Feet">1381</Altitude>
+            <Heading units="degrees_true">98</Heading>
+            <Speed units="Knots">113</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T15:38:07+00:00</DateTime>
+            <Latitude>38.22998</Latitude>
+            <Longitude>-122.35903</Longitude>
+            <CEPRadius>9</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387770075" Momsn="56905" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T15:40:09+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>38.211667</Latitude>
+            <Longitude>-122.228167</Longitude>
+            <Altitude units="Feet">1296</Altitude>
+            <Heading units="degrees_true">103</Heading>
+            <Speed units="Knots">107</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T15:40:14+00:00</DateTime>
+            <Latitude>38.19657</Latitude>
+            <Longitude>-122.46068</Longitude>
+            <CEPRadius>18</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387770304" Momsn="56906" Stale="No">
+        <IMEI>300224010847750</IMEI>
+        <Registration>N408KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>2089</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-23T15:42:15+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>38.195333</Latitude>
+            <Longitude>-122.152667</Longitude>
+            <Altitude units="Feet">1004</Altitude>
+            <Heading units="degrees_true">110</Heading>
+            <Speed units="Knots">102</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-23T15:42:20+00:00</DateTime>
+            <Latitude>38.19842</Latitude>
+            <Longitude>-121.06564</Longitude>
+            <CEPRadius>171</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387572679" Momsn="47237" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1611</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-21T16:35:35+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>NA</Signal>
+            <Latitude>38.855500</Latitude>
+            <Longitude>-94.799000</Longitude>
+            <Altitude units="Feet">0</Altitude>
+            <Heading units="degrees_true">0</Heading>
+            <Speed units="Knots">0</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-21T16:35:45+00:00</DateTime>
+            <Latitude>35.22690</Latitude>
+            <Longitude>-118.61046</Longitude>
+            <CEPRadius>2</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387572843" Momsn="47238" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1611</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-21T16:37:48+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>NA</Signal>
+            <Latitude>38.855500</Latitude>
+            <Longitude>-94.799000</Longitude>
+            <Altitude units="Feet">0</Altitude>
+            <Heading units="degrees_true">0</Heading>
+            <Speed units="Knots">0</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-21T16:37:58+00:00</DateTime>
+            <Latitude>35.21859</Latitude>
+            <Longitude>-118.55082</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387573159" Momsn="47240" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1611</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-21T16:41:59+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.201167</Latitude>
+            <Longitude>-118.512333</Longitude>
+            <Altitude units="Feet">4032</Altitude>
+            <Heading units="degrees_true">118</Heading>
+            <Speed units="Knots">84</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-21T16:42:00+00:00</DateTime>
+            <Latitude>35.30877</Latitude>
+            <Longitude>-118.33652</Longitude>
+            <CEPRadius>5</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387573309" Momsn="47241" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1611</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-21T16:44:07+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.176500</Latitude>
+            <Longitude>-118.456833</Longitude>
+            <Altitude units="Feet">4951</Altitude>
+            <Heading units="degrees_true">115</Heading>
+            <Speed units="Knots">91</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-21T16:44:07+00:00</DateTime>
+            <Latitude>35.26943</Latitude>
+            <Longitude>-118.37524</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387573505" Momsn="47242" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1611</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-21T16:46:08+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.156000</Latitude>
+            <Longitude>-118.393667</Longitude>
+            <Altitude units="Feet">5157</Altitude>
+            <Heading units="degrees_true">115</Heading>
+            <Speed units="Knots">103</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-21T16:46:14+00:00</DateTime>
+            <Latitude>35.17240</Latitude>
+            <Longitude>-118.43166</Longitude>
+            <CEPRadius>2</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387573672" Momsn="47243" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1611</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-21T16:48:15+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.136833</Latitude>
+            <Longitude>-118.328000</Longitude>
+            <Altitude units="Feet">5203</Altitude>
+            <Heading units="degrees_true">114</Heading>
+            <Speed units="Knots">101</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-21T16:48:20+00:00</DateTime>
+            <Latitude>35.12610</Latitude>
+            <Longitude>-118.31265</Longitude>
+            <CEPRadius>5</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388058996" Momsn="47305" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T21:54:33+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.225000</Latitude>
+            <Longitude>-118.566167</Longitude>
+            <Altitude units="Feet">2552</Altitude>
+            <Heading units="degrees_true">347</Heading>
+            <Speed units="Knots">2</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T21:54:39+00:00</DateTime>
+            <Latitude>35.17916</Latitude>
+            <Longitude>-118.58942</Longitude>
+            <CEPRadius>4</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388059340" Momsn="47307" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T21:57:34+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.225000</Latitude>
+            <Longitude>-118.566167</Longitude>
+            <Altitude units="Feet">2546</Altitude>
+            <Heading units="degrees_true">333</Heading>
+            <Speed units="Knots">0</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T21:57:39+00:00</DateTime>
+            <Latitude>35.22852</Latitude>
+            <Longitude>-118.51220</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388059560" Momsn="47308" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T21:59:40+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.225000</Latitude>
+            <Longitude>-118.566167</Longitude>
+            <Altitude units="Feet">2559</Altitude>
+            <Heading units="degrees_true">333</Heading>
+            <Speed units="Knots">0</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T21:59:49+00:00</DateTime>
+            <Latitude>35.21859</Latitude>
+            <Longitude>-118.55082</Longitude>
+            <CEPRadius>2</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388057506" Momsn="47299" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T21:41:43+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.333667</Latitude>
+            <Longitude>-118.971667</Longitude>
+            <Altitude units="Feet">4386</Altitude>
+            <Heading units="degrees_true">130</Heading>
+            <Speed units="Knots">96</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T21:41:51+00:00</DateTime>
+            <Latitude>35.30684</Latitude>
+            <Longitude>-118.98622</Longitude>
+            <CEPRadius>2</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388057786" Momsn="47300" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T21:43:52+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.311500</Latitude>
+            <Longitude>-118.907167</Longitude>
+            <Altitude units="Feet">4790</Altitude>
+            <Heading units="degrees_true">105</Heading>
+            <Speed units="Knots">99</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T21:43:57+00:00</DateTime>
+            <Latitude>35.22772</Latitude>
+            <Longitude>-119.06315</Longitude>
+            <CEPRadius>5</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388058049" Momsn="47301" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T21:45:58+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.295333</Latitude>
+            <Longitude>-118.837833</Longitude>
+            <Altitude units="Feet">4977</Altitude>
+            <Heading units="degrees_true">108</Heading>
+            <Speed units="Knots">101</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T21:46:08+00:00</DateTime>
+            <Latitude>35.21551</Latitude>
+            <Longitude>-119.19974</Longitude>
+            <CEPRadius>13</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388058276" Momsn="47302" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T21:48:09+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.275000</Latitude>
+            <Longitude>-118.763333</Longitude>
+            <Altitude units="Feet">4879</Altitude>
+            <Heading units="degrees_true">105</Heading>
+            <Speed units="Knots">109</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T21:48:14+00:00</DateTime>
+            <Latitude>35.21693</Latitude>
+            <Longitude>-118.64905</Longitude>
+            <CEPRadius>4</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388058512" Momsn="47303" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T21:50:15+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.259000</Latitude>
+            <Longitude>-118.684167</Longitude>
+            <Altitude units="Feet">4331</Altitude>
+            <Heading units="degrees_true">104</Heading>
+            <Speed units="Knots">119</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T21:50:26+00:00</DateTime>
+            <Latitude>35.18746</Latitude>
+            <Longitude>-118.64905</Longitude>
+            <CEPRadius>2</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388058739" Momsn="47304" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T21:52:27+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.236833</Latitude>
+            <Longitude>-118.601500</Longitude>
+            <Altitude units="Feet">3632</Altitude>
+            <Heading units="degrees_true">110</Heading>
+            <Speed units="Knots">121</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T21:52:32+00:00</DateTime>
+            <Latitude>35.13801</Latitude>
+            <Longitude>-118.72613</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388056065" Momsn="47293" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T21:28:51+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.517500</Latitude>
+            <Longitude>-119.319667</Longitude>
+            <Altitude units="Feet">3478</Altitude>
+            <Heading units="degrees_true">96</Heading>
+            <Speed units="Knots">95</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T21:29:02+00:00</DateTime>
+            <Latitude>35.52483</Latitude>
+            <Longitude>-119.17030</Longitude>
+            <CEPRadius>12</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388056292" Momsn="47294" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T21:31:02+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.513667</Latitude>
+            <Longitude>-119.250167</Longitude>
+            <Altitude units="Feet">3586</Altitude>
+            <Heading units="degrees_true">100</Heading>
+            <Speed units="Knots">91</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T21:31:08+00:00</DateTime>
+            <Latitude>35.50353</Latitude>
+            <Longitude>-119.23034</Longitude>
+            <CEPRadius>4</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388056547" Momsn="47295" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T21:33:09+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.493833</Latitude>
+            <Longitude>-119.188167</Longitude>
+            <Altitude units="Feet">3888</Altitude>
+            <Heading units="degrees_true">116</Heading>
+            <Speed units="Knots">99</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T21:33:22+00:00</DateTime>
+            <Latitude>35.44565</Latitude>
+            <Longitude>-119.24729</Longitude>
+            <CEPRadius>4</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388056794" Momsn="47296" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T21:35:22+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.451500</Latitude>
+            <Longitude>-119.132333</Longitude>
+            <Altitude units="Feet">3845</Altitude>
+            <Heading units="degrees_true">134</Heading>
+            <Speed units="Knots">103</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T21:35:29+00:00</DateTime>
+            <Latitude>35.35144</Latitude>
+            <Longitude>-119.55921</Longitude>
+            <CEPRadius>11</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388057019" Momsn="47297" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T21:37:29+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.411500</Latitude>
+            <Longitude>-119.080000</Longitude>
+            <Altitude units="Feet">3990</Altitude>
+            <Heading units="degrees_true">131</Heading>
+            <Speed units="Knots">102</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T21:37:35+00:00</DateTime>
+            <Latitude>35.47718</Latitude>
+            <Longitude>-119.14881</Longitude>
+            <CEPRadius>9</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388057240" Momsn="47298" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T21:39:37+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.372000</Latitude>
+            <Longitude>-119.025833</Longitude>
+            <Altitude units="Feet">4081</Altitude>
+            <Heading units="degrees_true">134</Heading>
+            <Speed units="Knots">104</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T21:39:42+00:00</DateTime>
+            <Latitude>35.40219</Latitude>
+            <Longitude>-119.02893</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388054678" Momsn="47287" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T21:16:13+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.616833</Latitude>
+            <Longitude>-119.704167</Longitude>
+            <Altitude units="Feet">3428</Altitude>
+            <Heading units="degrees_true">111</Heading>
+            <Speed units="Knots">90</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T21:16:20+00:00</DateTime>
+            <Latitude>35.56567</Latitude>
+            <Longitude>-119.48758</Longitude>
+            <CEPRadius>14</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388054930" Momsn="47288" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T21:18:20+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.596833</Latitude>
+            <Longitude>-119.644333</Longitude>
+            <Altitude units="Feet">3891</Altitude>
+            <Heading units="degrees_true">112</Heading>
+            <Speed units="Knots">90</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T21:18:25+00:00</DateTime>
+            <Latitude>35.48567</Latitude>
+            <Longitude>-118.10362</Longitude>
+            <CEPRadius>749</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388055163" Momsn="47289" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T21:20:26+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.578500</Latitude>
+            <Longitude>-119.583000</Longitude>
+            <Altitude units="Feet">4209</Altitude>
+            <Heading units="degrees_true">107</Heading>
+            <Speed units="Knots">92</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T21:20:32+00:00</DateTime>
+            <Latitude>35.63070</Latitude>
+            <Longitude>-120.24371</Longitude>
+            <CEPRadius>680</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388055372" Momsn="47290" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T21:22:33+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.557333</Latitude>
+            <Longitude>-119.516167</Longitude>
+            <Altitude units="Feet">3832</Altitude>
+            <Heading units="degrees_true">110</Heading>
+            <Speed units="Knots">99</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T21:22:38+00:00</DateTime>
+            <Latitude>35.56802</Latitude>
+            <Longitude>-119.38901</Longitude>
+            <CEPRadius>13</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388055603" Momsn="47291" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T21:24:39+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.536500</Latitude>
+            <Longitude>-119.453667</Longitude>
+            <Altitude units="Feet">3796</Altitude>
+            <Heading units="degrees_true">110</Heading>
+            <Speed units="Knots">93</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T21:24:44+00:00</DateTime>
+            <Latitude>35.51762</Latitude>
+            <Longitude>-120.17707</Longitude>
+            <CEPRadius>76</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388055830" Momsn="47292" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T21:26:45+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.525333</Latitude>
+            <Longitude>-119.388167</Longitude>
+            <Altitude units="Feet">3750</Altitude>
+            <Heading units="degrees_true">96</Heading>
+            <Speed units="Knots">94</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T21:26:50+00:00</DateTime>
+            <Latitude>35.52215</Latitude>
+            <Longitude>-120.33582</Longitude>
+            <CEPRadius>681</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388053169" Momsn="47281" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T21:03:24+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.562333</Latitude>
+            <Longitude>-119.377333</Longitude>
+            <Altitude units="Feet">4383</Altitude>
+            <Heading units="degrees_true">281</Heading>
+            <Speed units="Knots">97</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T21:03:34+00:00</DateTime>
+            <Latitude>35.54664</Latitude>
+            <Longitude>-119.44915</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388053419" Momsn="47282" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T21:05:35+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.580667</Latitude>
+            <Longitude>-119.449167</Longitude>
+            <Altitude units="Feet">4229</Altitude>
+            <Heading units="degrees_true">282</Heading>
+            <Speed units="Knots">110</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T21:05:43+00:00</DateTime>
+            <Latitude>35.52838</Latitude>
+            <Longitude>-119.42746</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388053683" Momsn="47283" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T21:07:44+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.595333</Latitude>
+            <Longitude>-119.526500</Longitude>
+            <Altitude units="Feet">3875</Altitude>
+            <Heading units="degrees_true">283</Heading>
+            <Speed units="Knots">111</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T21:07:53+00:00</DateTime>
+            <Latitude>35.57599</Latitude>
+            <Longitude>-119.44915</Longitude>
+            <CEPRadius>9</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388053946" Momsn="47284" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T21:09:54+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.612667</Latitude>
+            <Longitude>-119.606333</Longitude>
+            <Altitude units="Feet">3415</Altitude>
+            <Heading units="degrees_true">285</Heading>
+            <Speed units="Knots">111</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T21:10:00+00:00</DateTime>
+            <Latitude>35.57854</Latitude>
+            <Longitude>-120.06255</Longitude>
+            <CEPRadius>25</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388054177" Momsn="47285" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T21:12:01+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.625167</Latitude>
+            <Longitude>-119.680833</Longitude>
+            <Altitude units="Feet">3012</Altitude>
+            <Heading units="degrees_true">283</Heading>
+            <Speed units="Knots">94</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T21:12:06+00:00</DateTime>
+            <Latitude>35.57085</Latitude>
+            <Longitude>-115.85432</Longitude>
+            <CEPRadius>9</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388054435" Momsn="47286" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T21:14:07+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.638167</Latitude>
+            <Longitude>-119.749667</Longitude>
+            <Altitude units="Feet">3143</Altitude>
+            <Heading units="degrees_true">245</Heading>
+            <Speed units="Knots">95</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T21:14:12+00:00</DateTime>
+            <Latitude>35.61610</Latitude>
+            <Longitude>-119.76680</Longitude>
+            <CEPRadius>5</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388051691" Momsn="47275" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T20:50:34+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.431667</Latitude>
+            <Longitude>-118.953833</Longitude>
+            <Altitude units="Feet">4636</Altitude>
+            <Heading units="degrees_true">292</Heading>
+            <Speed units="Knots">104</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T20:50:43+00:00</DateTime>
+            <Latitude>35.57857</Latitude>
+            <Longitude>-118.89591</Longitude>
+            <CEPRadius>4</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388051924" Momsn="47276" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T20:52:44+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.454167</Latitude>
+            <Longitude>-119.025833</Longitude>
+            <Altitude units="Feet">4400</Altitude>
+            <Heading units="degrees_true">288</Heading>
+            <Speed units="Knots">104</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T20:52:49+00:00</DateTime>
+            <Latitude>35.40821</Latitude>
+            <Longitude>-119.18730</Longitude>
+            <CEPRadius>6</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388052163" Momsn="47277" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T20:54:50+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.473667</Latitude>
+            <Longitude>-119.094000</Longitude>
+            <Altitude units="Feet">4436</Altitude>
+            <Heading units="degrees_true">292</Heading>
+            <Speed units="Knots">103</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T20:54:56+00:00</DateTime>
+            <Latitude>35.44780</Latitude>
+            <Longitude>-119.14881</Longitude>
+            <CEPRadius>2</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388052412" Momsn="47278" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T20:56:56+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.496000</Latitude>
+            <Longitude>-119.162667</Longitude>
+            <Altitude units="Feet">4367</Altitude>
+            <Heading units="degrees_true">291</Heading>
+            <Speed units="Knots">105</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T20:57:03+00:00</DateTime>
+            <Latitude>35.44780</Latitude>
+            <Longitude>-119.14881</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388052701" Momsn="47279" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T20:59:03+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.518500</Latitude>
+            <Longitude>-119.234000</Longitude>
+            <Altitude units="Feet">4229</Altitude>
+            <Heading units="degrees_true">292</Heading>
+            <Speed units="Knots">102</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T20:59:13+00:00</DateTime>
+            <Latitude>35.47718</Latitude>
+            <Longitude>-119.14881</Longitude>
+            <CEPRadius>8</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388052924" Momsn="47280" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T21:01:14+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.545667</Latitude>
+            <Longitude>-119.304833</Longitude>
+            <Altitude units="Feet">4147</Altitude>
+            <Heading units="degrees_true">292</Heading>
+            <Speed units="Knots">106</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T21:01:23+00:00</DateTime>
+            <Latitude>35.49417</Latitude>
+            <Longitude>-119.62450</Longitude>
+            <CEPRadius>11</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388050020" Momsn="47268" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T20:35:08+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>NA</Signal>
+            <Latitude>38.855500</Latitude>
+            <Longitude>-94.799000</Longitude>
+            <Altitude units="Feet">0</Altitude>
+            <Heading units="degrees_true">0</Heading>
+            <Speed units="Knots">0</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T20:35:18+00:00</DateTime>
+            <Latitude>35.23686</Latitude>
+            <Longitude>-118.57185</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388050542" Momsn="47270" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T20:39:58+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.283833</Latitude>
+            <Longitude>-118.655500</Longitude>
+            <Altitude units="Feet">3681</Altitude>
+            <Heading units="degrees_true">304</Heading>
+            <Speed units="Knots">82</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T20:40:03+00:00</DateTime>
+            <Latitude>35.27465</Latitude>
+            <Longitude>-118.63153</Longitude>
+            <CEPRadius>4</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388050776" Momsn="47271" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T20:42:04+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.309833</Latitude>
+            <Longitude>-118.706667</Longitude>
+            <Altitude units="Feet">4304</Altitude>
+            <Heading units="degrees_true">303</Heading>
+            <Speed units="Knots">96</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T20:42:12+00:00</DateTime>
+            <Latitude>35.18006</Latitude>
+            <Longitude>-119.04180</Longitude>
+            <CEPRadius>9</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388050999" Momsn="47272" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T20:44:13+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.341167</Latitude>
+            <Longitude>-118.763500</Longitude>
+            <Altitude units="Feet">4908</Altitude>
+            <Heading units="degrees_true">305</Heading>
+            <Speed units="Knots">98</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T20:44:18+00:00</DateTime>
+            <Latitude>35.26108</Latitude>
+            <Longitude>-118.86667</Longitude>
+            <CEPRadius>4</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388051237" Momsn="47273" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T20:46:19+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.374667</Latitude>
+            <Longitude>-118.821833</Longitude>
+            <Altitude units="Feet">5259</Altitude>
+            <Heading units="degrees_true">306</Heading>
+            <Speed units="Knots">98</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T20:46:27+00:00</DateTime>
+            <Latitude>35.31883</Latitude>
+            <Longitude>-118.84937</Longitude>
+            <CEPRadius>2</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388051461" Momsn="47274" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T20:48:28+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.406333</Latitude>
+            <Longitude>-118.885500</Longitude>
+            <Altitude units="Feet">5033</Altitude>
+            <Heading units="degrees_true">296</Heading>
+            <Speed units="Knots">108</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T20:48:33+00:00</DateTime>
+            <Latitude>35.34826</Latitude>
+            <Longitude>-118.84937</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387593556" Momsn="47259" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1612</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-21T20:20:50+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.175000</Latitude>
+            <Longitude>-118.475500</Longitude>
+            <Altitude units="Feet">4446</Altitude>
+            <Heading units="degrees_true">304</Heading>
+            <Speed units="Knots">84</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-21T20:20:55+00:00</DateTime>
+            <Latitude>35.22016</Latitude>
+            <Longitude>-118.45259</Longitude>
+            <CEPRadius>2</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387593778" Momsn="47260" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1612</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-21T20:22:56+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.200500</Latitude>
+            <Longitude>-118.520500</Longitude>
+            <Altitude units="Feet">3747</Altitude>
+            <Heading units="degrees_true">304</Heading>
+            <Speed units="Knots">71</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-21T20:23:01+00:00</DateTime>
+            <Latitude>35.23006</Latitude>
+            <Longitude>-118.41393</Longitude>
+            <CEPRadius>4</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387594010" Momsn="47261" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1612</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-21T20:25:02+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.220833</Latitude>
+            <Longitude>-118.556667</Longitude>
+            <Altitude units="Feet">2894</Altitude>
+            <Heading units="degrees_true">331</Heading>
+            <Speed units="Knots">46</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-21T20:25:14+00:00</DateTime>
+            <Latitude>35.21024</Latitude>
+            <Longitude>-118.49123</Longitude>
+            <CEPRadius>7</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387594439" Momsn="47263" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1612</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-21T20:29:13+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.225167</Latitude>
+            <Longitude>-118.566167</Longitude>
+            <Altitude units="Feet">2549</Altitude>
+            <Heading units="degrees_true">344</Heading>
+            <Speed units="Knots">0</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-21T20:29:24+00:00</DateTime>
+            <Latitude>35.21859</Latitude>
+            <Longitude>-118.55082</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387667211" Momsn="47265" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-22T15:20:55+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>NA</Signal>
+            <Latitude>38.855500</Latitude>
+            <Longitude>-94.799000</Longitude>
+            <Altitude units="Feet">0</Altitude>
+            <Heading units="degrees_true">0</Heading>
+            <Speed units="Knots">0</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-22T15:21:05+00:00</DateTime>
+            <Latitude>35.25798</Latitude>
+            <Longitude>-118.51220</Longitude>
+            <CEPRadius>11</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="388049763" Momsn="47267" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1613</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-25T20:33:00+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>NA</Signal>
+            <Latitude>38.855500</Latitude>
+            <Longitude>-94.799000</Longitude>
+            <Altitude units="Feet">0</Altitude>
+            <Heading units="degrees_true">0</Heading>
+            <Speed units="Knots">0</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-25T20:33:10+00:00</DateTime>
+            <Latitude>35.21859</Latitude>
+            <Longitude>-118.55082</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387591912" Momsn="47252" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1612</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-21T20:06:38+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.057500</Latitude>
+            <Longitude>-118.158333</Longitude>
+            <Altitude units="Feet">2802</Altitude>
+            <Heading units="degrees_true">341</Heading>
+            <Speed units="Knots">0</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-21T20:06:47+00:00</DateTime>
+            <Latitude>35.05017</Latitude>
+            <Longitude>-118.19378</Longitude>
+            <CEPRadius>4</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387592359" Momsn="47254" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1612</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-21T20:10:16+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.042167</Latitude>
+            <Longitude>-118.196167</Longitude>
+            <Altitude units="Feet">3255</Altitude>
+            <Heading units="degrees_true">280</Heading>
+            <Speed units="Knots">85</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-21T20:10:23+00:00</DateTime>
+            <Latitude>35.08948</Latitude>
+            <Longitude>-118.15510</Longitude>
+            <CEPRadius>2</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387592602" Momsn="47255" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1612</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-21T20:12:24+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.059167</Latitude>
+            <Longitude>-118.261000</Longitude>
+            <Altitude units="Feet">4206</Altitude>
+            <Heading units="degrees_true">277</Heading>
+            <Speed units="Knots">102</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-21T20:12:32+00:00</DateTime>
+            <Latitude>35.09797</Latitude>
+            <Longitude>-118.21453</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387592845" Momsn="47256" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1612</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-21T20:14:32+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.074500</Latitude>
+            <Longitude>-118.329667</Longitude>
+            <Altitude units="Feet">5285</Altitude>
+            <Heading units="degrees_true">311</Heading>
+            <Speed units="Knots">99</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-21T20:14:37+00:00</DateTime>
+            <Latitude>35.11899</Latitude>
+            <Longitude>-118.15510</Longitude>
+            <CEPRadius>5</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387593092" Momsn="47257" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1612</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-21T20:16:38+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.123000</Latitude>
+            <Longitude>-118.363333</Longitude>
+            <Altitude units="Feet">4836</Altitude>
+            <Heading units="degrees_true">326</Heading>
+            <Speed units="Knots">99</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-21T20:16:43+00:00</DateTime>
+            <Latitude>35.12610</Latitude>
+            <Longitude>-118.31265</Longitude>
+            <CEPRadius>5</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387593322" Momsn="47258" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1612</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-21T20:18:44+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.144667</Latitude>
+            <Longitude>-118.425167</Longitude>
+            <Altitude units="Feet">4665</Altitude>
+            <Heading units="degrees_true">301</Heading>
+            <Speed units="Knots">99</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-21T20:18:50+00:00</DateTime>
+            <Latitude>35.21176</Latitude>
+            <Longitude>-118.39302</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387573936" Momsn="47244" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1611</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-21T16:51:24+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.114333</Latitude>
+            <Longitude>-118.241833</Longitude>
+            <Altitude units="Feet">5069</Altitude>
+            <Heading units="degrees_true">76</Heading>
+            <Speed units="Knots">70</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-21T16:51:57+00:00</DateTime>
+            <Latitude>35.16678</Latitude>
+            <Longitude>-118.17582</Longitude>
+            <CEPRadius>4</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387574089" Momsn="47245" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1611</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-21T16:53:58+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.079000</Latitude>
+            <Longitude>-118.208667</Longitude>
+            <Altitude units="Feet">3727</Altitude>
+            <Heading units="degrees_true">131</Heading>
+            <Speed units="Knots">83</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-21T16:54:09+00:00</DateTime>
+            <Latitude>35.17658</Latitude>
+            <Longitude>-118.13710</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387574247" Momsn="47246" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1611</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-21T16:56:11+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.057667</Latitude>
+            <Longitude>-118.161000</Longitude>
+            <Altitude units="Feet">2818</Altitude>
+            <Heading units="degrees_true">104</Heading>
+            <Speed units="Knots">25</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-21T16:56:17+00:00</DateTime>
+            <Latitude>35.04168</Latitude>
+            <Longitude>-118.13441</Longitude>
+            <CEPRadius>3</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387574400" Momsn="47247" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1611</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-21T16:58:18+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.057333</Latitude>
+            <Longitude>-118.158167</Longitude>
+            <Altitude units="Feet">2759</Altitude>
+            <Heading units="degrees_true">157</Heading>
+            <Speed units="Knots">0</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-21T16:58:27+00:00</DateTime>
+            <Latitude>35.04168</Latitude>
+            <Longitude>-118.13441</Longitude>
+            <CEPRadius>8</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387574596" Momsn="47249" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1611</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-21T17:01:12+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>3D</Signal>
+            <Latitude>35.057333</Latitude>
+            <Longitude>-118.158167</Longitude>
+            <Altitude units="Feet">2756</Altitude>
+            <Heading units="degrees_true">157</Heading>
+            <Speed units="Knots">0</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-21T17:01:18+00:00</DateTime>
+            <Latitude>35.05144</Latitude>
+            <Longitude>-118.09571</Longitude>
+            <CEPRadius>4</CEPRadius>
+        </LbtSession>
+    </Message>
+    <Message ID="387591664" Momsn="47251" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1612</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-21T20:04:27+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>NA</Signal>
+            <Latitude>38.855500</Latitude>
+            <Longitude>-94.799000</Longitude>
+            <Altitude units="Feet">0</Altitude>
+            <Heading units="degrees_true">0</Heading>
+            <Speed units="Knots">0</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-21T20:04:37+00:00</DateTime>
+            <Latitude>35.04168</Latitude>
+            <Longitude>-118.13441</Longitude>
+            <CEPRadius>4</CEPRadius>
+        </LbtSession>
+    </Message>
+    <SystemStatus>
+        <NetworkStatus>Redundant</NetworkStatus>
+        <AgentStatus>Dual</AgentStatus>
+        <IridiumMailStatus>Dual</IridiumMailStatus>
+        <Backlog Count="0">N</Backlog>
+    </SystemStatus>
+</SkyConnectData>

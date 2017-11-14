@@ -1,0 +1,18 @@
+environment:
+    PGHOST: "devhost"
+    PGUSER: "postgis-user-id"
+    PGDATABASE: "nics.datafeeds"
+    SKYCONNECTHOST1: "https://www.integratedavionics.us/xml/service1.asmx/XmlResponse"
+    SKYCONNECTHOST2: "https://www.skyconnecttracker.us/xml/service1.asmx/XmlResponse"
+    SKYCONNECTUSER: "SkyConnect-user-here"
+events:
+    - schedule: rate(60 minutes)
+kmskey: "arn:.....put your kms key for ssm decryption here"
+
+vpc:
+    securityGroupIds:
+      - sg-1
+      - sg-2
+    subnetIds:
+      - subnet-1
+      - subnet-2
