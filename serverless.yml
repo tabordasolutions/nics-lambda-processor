@@ -24,7 +24,6 @@ provider:
 # you can overwrite defaults here
   stage: ${opt:stage, self:custom.defaultStage}
   region: us-west-2
-  profile: cascout
 
   vpc: ${file(${opt:envdir, '.'}/${opt:stage, self:provider.stage}-vars.yml):vpc}
 
@@ -120,4 +119,5 @@ plugins:
   - serverless-secrets
 custom:
   defaultStage: dev
+
 
