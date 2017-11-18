@@ -10,7 +10,7 @@ let etlskyconnectdata = (dboptions = dbconnectionparams, skyconnectoptions = sky
     const password = skyconnectoptions.password;
     //let startTime = moment().subtract(1,'day');
     //let timefilter = `<Time><Start>${startTime.format()}</Start></Time>`;
-    let newRequestsOnly = skyconnectoptions;
+    let newRequestsOnly = skyconnectoptions.requestsnewmessagesonly;
     let requestparams = `?request=<Request xmlns=\'http://www.skyconnecttracker.com/SkyConnect XML Format Release 9\' RequestTime=\'${moment().format()}\' Server=\'Taborda1\'><Username>${username}</Username><Password>${password}</Password><DeliverData><newRecordsOnly>${newRequestsOnly}</newRecordsOnly><Format><TimeStamp>DateTime</TimeStamp></Format></DeliverData><Filter></Filter></Request>`;
     console.log('Requesting Primary service data from: ', skyconnectoptions.primaryhost);
     skytracker.requestJsonData(skyconnectoptions.primaryhost + requestparams)
