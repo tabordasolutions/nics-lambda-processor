@@ -67,6 +67,7 @@ functions:
   etl:
     handler: lambda.handler
     events: ${file(${opt:envdir, '.'}/${opt:stage, self:provider.stage}-vars.yml):events}
+    description: "ETL's Skyconnect Aircraft AVL data into the scout datafeeds db."
 #    events:  # 1
 #          - http:  # 2
 #              method: get  # 3
