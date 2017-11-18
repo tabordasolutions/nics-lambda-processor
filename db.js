@@ -7,7 +7,7 @@ let upsertdb = (feedname, features = [], connectionparams) => new Promise((resol
     if (!features) throw new Error('Missing required parameter: features');
 
     let AsOfDateLocalTZ = moment().tz("US/Pacific").format();
-    let upsertrecord_querytext = 'Select upsert_geojson_avl_record($1, $2, $3, $4, $5)';
+    let upsertrecord_querytext = 'Select upsert_geojson_point_record($1, $2, $3, $4, $5)';
     const client = new Client(connectionparams);
     let validfeatures = features.filter((feature) => {
         return (feature.type === 'Feature' && feature.geometry.type === 'Point' && feature.properties !== null)
