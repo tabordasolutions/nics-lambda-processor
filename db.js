@@ -14,33 +14,38 @@ let upsertdb = (feedname, features = [], connectionparams) => new Promise((resol
     });
     console.log('Current Timestamp is: ', AsOfDateLocalTZ);
     console.log(`Total # of features: ${features.length}, Valid # of features: ${validfeatures.length}`);
-    //client connect() promise doesn't behave well, so using old school callback.
-    client.connect((err) => {
-        if (err) {
-            rejects(new Error(`Could not connect to dbhost ${connectionparams.host}:${connectionparams.port} - ${err.message}`));
-        }
-        else {
-            console.log('Connected to Db');
-            //Start the work with chained promises.
-            client.query('BEGIN')
-                .then(() => Promise.all(validfeatures.map(({id, geometry, properties}) => client.query(upsertrecord_querytext, [feedname, id, AsOfDateLocalTZ,JSON.stringify(geometry), JSON.stringify(properties)]))))
-                .then(() => console.log(`Successfully processed ${validfeatures.length} records`))
-                .then(() => client.query('COMMIT'))
-                .then(() => console.log(`Committed transaction`))
-                .then(() => client.end())
-                .then(() => console.log('Disconnected database client'))
-                .then(() => resolves({ timestamp: AsOfDateLocalTZ}))
-                .catch(e => {
-                    console.error(`Error occurred during processing: ${e}`);
-                    client.query('ROLLBACK')
-                        .then(() => console.error('Aborted transaction'))
-                        .catch((e) => console.error(`Error aborting transaction: ${e}`))
-                        .then(() => {console.error('Disconnecting Client'); client.end();})
-                        .catch((e) => console.error(`Error disconnecting client: ${e}`))
-                        .then(() => rejects(e))
-                })
-        }
-    })
+    if (validfeatures.length > 0) { //Only connect if we have something to upsert.
+        //client connect() promise doesn't behave well, so using old school callback.
+        client.connect((err) => {
+            if (err) {
+                rejects(new Error(`Could not connect to dbhost ${connectionparams.host}:${connectionparams.port} - ${err.message}`));
+            }
+            else {
+                console.log('Connected to Db');
+                //Start the work with chained promises.
+                client.query('BEGIN')
+                    .then(() => Promise.all(validfeatures.map(({id, geometry, properties}) => client.query(upsertrecord_querytext, [feedname, id, AsOfDateLocalTZ,JSON.stringify(geometry), JSON.stringify(properties)]))))
+                    .then(() => console.log(`Successfully processed ${validfeatures.length} records`))
+                    .then(() => client.query('COMMIT'))
+                    .then(() => console.log(`Committed transaction`))
+                    .then(() => client.end())
+                    .then(() => console.log('Disconnected database client'))
+                    .then(() => resolves({ timestamp: AsOfDateLocalTZ}))
+                    .catch(e => {
+                        console.error(`Error occurred during processing: ${e}`);
+                        client.query('ROLLBACK')
+                            .then(() => console.error('Aborted transaction'))
+                            .catch((e) => console.error(`Error aborting transaction: ${e}`))
+                            .then(() => {console.error('Disconnecting Client'); client.end();})
+                            .catch((e) => console.error(`Error disconnecting client: ${e}`))
+                            .then(() => rejects(e))
+                    })
+            }
+        })
+    } else {
+        resolves({ timestamp: AsOfDateLocalTZ});
+    }
+
 
 
 });
