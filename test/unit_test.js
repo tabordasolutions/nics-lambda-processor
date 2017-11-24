@@ -31,7 +31,19 @@ describe('All Unit Tests', function() {
                 let validmessages = themodule.filterValidMessages(data.SkyConnectData.Message);
                 expect(validmessages).to.be.an('array','result should be an array.');
                 expect(validmessages.length).to.equal(236);
-            })
+            });
+            it('Should throw an error on undefined message', function() {
+                expect(themodule.filterValidMessages.bind(themodule,undefined)).to.throw('Invalid parameter - messages must be an array. Found:undefined');
+            });
+            it('Should throw an error on null message', function() {
+                expect(themodule.filterValidMessages.bind(themodule,null)).to.throw('Invalid parameter - messages must be an array. Found:null');
+            });
+            it('Should throw an error on empty object message', function() {
+                expect(themodule.filterValidMessages.bind(themodule,{})).to.throw('Invalid parameter - messages must be an array. Found:[object Object]');
+            });
+            it('Should throw an error on empty string message', function() {
+                expect(themodule.filterValidMessages.bind(themodule,'')).to.throw('Invalid parameter - messages must be an array. Found:');
+            });
         });
         describe('Filter to only latest message from units', function() {
             it('Should return data array with length = 2', function() {
@@ -43,6 +55,18 @@ describe('All Unit Tests', function() {
                 expect(filtered[0].GPS.DateTime._).to.be.equal('2017-10-30T19:46:11+00:00');
                 expect(filtered[1].Registration._).to.be.equal('N407KC');
                 expect(filtered[1].GPS.DateTime._).to.be.equal('2017-10-30T18:19:31+00:00');
+            });
+            it('Should throw an error on undefined message', function() {
+                expect(themodule.latestMessagesPerUnit.bind(themodule,undefined)).to.throw('Invalid parameter - messages must be an array. Found:undefined');
+            });
+            it('Should throw an error on null message', function() {
+                expect(themodule.latestMessagesPerUnit.bind(themodule,null)).to.throw('Invalid parameter - messages must be an array. Found:null');
+            });
+            it('Should throw an error on empty object message', function() {
+                expect(themodule.latestMessagesPerUnit.bind(themodule,{})).to.throw('Invalid parameter - messages must be an array. Found:[object Object]');
+            });
+            it('Should throw an error on empty string message', function() {
+                expect(themodule.latestMessagesPerUnit.bind(themodule,'')).to.throw('Invalid parameter - messages must be an array. Found:');
             });
         });
         describe('Validate json result', function() {

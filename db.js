@@ -67,9 +67,12 @@ let deleteRecordsBefore = (asofdatetime,feedname, connectionparams) => new Promi
                 .then(() => resolves(returnmessage))
                 .catch(e => {
                     returnmessage = `Error occurred during processing: ${e}`;
-                    client.end()
+                    client.query('ROLLBACK')
+                        .then(() => console.error('Aborted transaction'))
+                        .catch((e) => console.error(`Error aborting transaction: ${e}`))
+                        .then(() => {console.error('Disconnecting Client'); client.end();})
+                        .catch((e) => console.error(`Error disconnecting client: ${e}`))
                         .then(() => rejects(e))
-                        .catch(e => console.error(`Error disconnecting client: ${e}`))
                 })
         }
     })
