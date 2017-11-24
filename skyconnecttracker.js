@@ -61,7 +61,7 @@ let transformToGeoJson = (messages) => {
 };
 
 let filterValidMessages = (messages) => {
-    if (!messages && !messages.length) throw new Error('Invalid parameter: messages');
+    if (!Array.isArray(messages)) throw new Error('Invalid parameter - messages must be an array. Found:' + messages );
     return messages.filter((message) => {
         return (((message.GPS || {}).DateTime || {})._)
             && (((message.GPS || {}).Latitude || {})._)
@@ -71,7 +71,7 @@ let filterValidMessages = (messages) => {
 };
 
 let latestMessagesPerUnit = (messages) => {
-    if (!messages && !messages.length) throw new Error('Invalid parameter: allmessages');
+    if (!Array.isArray(messages)) throw new Error('Invalid parameter - messages must be an array. Found:' + messages );
     let vehicleMap = {};
     messages.sort((a,b) => moment(b.GPS.DateTime._).unix() - moment(a.GPS.DateTime._).unix());
 
