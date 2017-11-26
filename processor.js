@@ -11,7 +11,7 @@ let etlskyconnectdata = (dboptions = dbconnectionparams, skyconnectoptions = sky
     //let startTime = moment().subtract(1,'day');
     //let timefilter = `<Time><Start>${startTime.format()}</Start></Time>`;
     let newRequestsOnly = skyconnectoptions.requestsnewmessagesonly;
-    let requestparams = `?request=<Request xmlns=\'http://www.skyconnecttracker.com/SkyConnect XML Format Release 9\' RequestTime=\'${moment().format()}\' Server=\'Taborda1\'><Username>${username}</Username><Password>${password}</Password><DeliverData><newRecordsOnly>${newRequestsOnly}</newRecordsOnly><Format><TimeStamp>DateTime</TimeStamp></Format></DeliverData><Filter></Filter></Request>`;
+    let requestparams = `?request=<Request xmlns=\'http://www.skyconnecttracker.com/SkyConnect XML Format Release 9\' RequestTime=\'${moment().format()}\' Server=\'Taborda1\'><Username>${username}</Username><Password>${password}</Password><DeliverData><newRecordsOnly>${newRequestsOnly}</newRecordsOnly><Format><TimeStamp>DateTime</TimeStamp></Format></DeliverData></Request>`;
     console.log('Requesting Primary service data from: ', skyconnectoptions.primaryhost);
     skytracker.requestJsonData(skyconnectoptions.primaryhost + requestparams)
         .then(result => {
@@ -23,11 +23,20 @@ let etlskyconnectdata = (dboptions = dbconnectionparams, skyconnectoptions = sky
             console.log('Trying secondary server: ', skyconnectoptions.secondaryhost);
             skytracker.requestJsonData(skyconnectoptions.secondaryhost + requestparams)
                 .then(result => processresult(result,dboptions))
-                .then(timestamp => resolves(timestamp))
+                .then(timestamp => {
+                    swaphosts(skyconnectoptions);
+                    console.log(`Swapping hosts. PrimaryHost=${skyconnectoptions.primaryhost}, SecondaryHost=${skyconnectoptions.secondaryhost}`);
+                    resolves(timestamp)
+                })
                 .catch(e => rejects(e))
         })
 });
 
+let swaphosts = (skyconnectoptions) => {
+    let host1 = skyconnectoptions.primaryhost;
+    skyconnectoptions.primaryhost = skyconnectoptions.secondaryhost;
+    skyconnectoptions.secondaryhost = host1;
+};
 let processresult = (result, dboptions) => {
     if (!skytracker.validResult(result))
         throw new Error('Invalid result found in data. Result:' + JSON.stringify(result));
@@ -42,5 +51,6 @@ let prunestaledata = (olderthan = moment().subtract(30,'days'), dboptions = dbco
 };
 module.exports = {
     etlskyconnectdata: etlskyconnectdata,
-    prunestaledata : prunestaledata
+    prunestaledata : prunestaledata,
+    swaphosts : swaphosts
 };
