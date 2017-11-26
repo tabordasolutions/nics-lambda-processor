@@ -1,6 +1,6 @@
 'use strict';
 const {expect} = require('chai');
-const themodule = require('../skyconnecttracker');
+const skyconnecttracker_module = require('../skyconnecttracker');
 const moment = require('moment');
 const testdata = require('./testdata');
 const db = require('../db');
@@ -8,27 +8,29 @@ const testparams = require('../connections');
 
 const username = testparams.skyconnectparams.user;
 const password = testparams.skyconnectparams.password;
+const newRequestsOnly = testparams.skyconnectparams.newRequestsOnly;
 
-let skytrackertemplateurl = `https://www.skyconnecttracker.us/xml/service1.asmx/XmlResponse?request=<Request xmlns=\'http://www.skyconnecttracker.com/SkyConnect XML Format Release 9\' RequestTime=\'${moment().format()}\' Server=\'Taborda1\'><Username>${username}</Username><Password>${password}</Password><DeliverData><newRecordsOnly>N</newRecordsOnly><Format><TimeStamp>DateTime</TimeStamp></Format></DeliverData></Request>`;
+let requestparams = `?request=<Request xmlns=\'http://www.skyconnecttracker.com/SkyConnect XML Format Release 9\' RequestTime=\'${moment().format()}\' Server=\'Taborda1\'><Username>${username}</Username><Password>${password}</Password><DeliverData><newRecordsOnly>${newRequestsOnly}</newRecordsOnly><Format><TimeStamp>DateTime</TimeStamp></Format></DeliverData></Request>`;
 
 describe('All Integration Tests', function() {
     describe('Skyconnect Module', function() {
         describe('Request Skytracker Json Data', function() {
-            it('Should return a result', function() {
-
-                return themodule.requestJsonData(skytrackertemplateurl)
+            it('Should return a result from a server.', function() {
+                return skyconnecttracker_module.requestJsonData(testparams.skyconnectparams.primaryhost + requestparams)
                     .then((result) => expect(result).to.be.an('object', 'result should be an object.'))
-            })
-
+                    .catch(() => { //If the primary server is down for some reason.
+                        skyconnecttracker_module.requestJsonData(testparams.skyconnectparams.secondaryhost + requestparams)
+                            .then(result => expect(result).to.be.an('object', 'result should be an object.'));
+                    })
+            });
         });
         describe('Bad url tests', function() {
             it('Should fail with a bad url', function() {
-                return themodule.requestJsonData('https://www.skyconnecttracker.us/xml/service')
+                return skyconnecttracker_module.requestJsonData('https://www.skyconnecttracker.us/xml/failservice')
                     .then((result) => expect(result).to.be.null)
                     .catch((err) => expect(err).to.be.an('object', 'Error should be an object.'))
             })
         });
-
 
     });
     describe('Db Integration', function() {

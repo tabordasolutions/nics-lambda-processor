@@ -12,6 +12,42 @@ describe('All Unit Tests', function() {
                 expect(skyconnecttrackermodule.requestJsonData).to.be.a('function');
             });
         });
+        describe('xmltojson', function() {
+            it('Should be a function', function() {
+                expect(skyconnecttrackermodule.xmltojson).to.be.a('function');
+            });
+            it('Should return a message object from xml with a single message.', function() {
+                return skyconnecttrackermodule.xmltojson(testdata.skyconnect_response_single_message())
+                    .then(result => expect(result.SkyConnectData.Message).to.be.an('object'));
+
+            });
+            it('Should return an array of message objects from xml with a multiple messages.', function() {
+                return skyconnecttrackermodule.xmltojson(testdata.skyconnect_responsexml())
+                    .then(result => expect(result.SkyConnectData.Message).to.be.an('array'));
+            })
+        });
+        describe('getMessageArrayFromResult', function() {
+            it('Should be a function', function() {
+                expect(skyconnecttrackermodule.getMessageArrayFromResult).to.be.a('function');
+            });
+            it('Should return data array with a single message', function() {
+                const result = testdata.valid_jsonfromxmlresult_singlemessage();
+                let messages = skyconnecttrackermodule.getMessageArrayFromResult(result);
+                expect(messages).to.be.an('array','result should be an array.');
+                expect(messages.length).to.be.equal(1);
+            });
+            it('Should return data array with zero messages', function() {
+                let messages = skyconnecttrackermodule.getMessageArrayFromResult({});
+                expect(messages).to.be.an('array','result should be an array.');
+                expect(messages.length).to.be.equal(0);
+            });
+            it('Should return data array with messages > 1', function() {
+                const result = testdata.valid_jsonfromxmlresult_multiple_messages();
+                let messages = skyconnecttrackermodule.getMessageArrayFromResult(result);
+                expect(messages).to.be.an('array','result should be an array.');
+                expect(messages.length).to.be.greaterThan(1);
+            });
+        });
         describe('LatestMessagesPerUnit', function() {
             it('Should be a function', function() {
                 expect(skyconnecttrackermodule.latestMessagesPerUnit).to.be.a('function');
@@ -28,11 +64,17 @@ describe('All Unit Tests', function() {
             })
         });
         describe('Filter all Valid Messages', function() {
-            it('Should return correct messages', function() {
-                const data = testdata.valid_jsonfromxmlresult();
-                let validmessages = skyconnecttrackermodule.filterValidMessages(data.SkyConnectData.Message);
+            it('Should return multiple messages', function() {
+                const data = testdata.valid_jsonfromxmlresult_multiple_messages();
+                let validmessages = skyconnecttrackermodule.filterValidMessages(skyconnecttrackermodule.getMessageArrayFromResult(data));
                 expect(validmessages).to.be.an('array','result should be an array.');
                 expect(validmessages.length).to.equal(236);
+            });
+            it('Should return single message', function() {
+                const data = testdata.valid_jsonfromxmlresult_singlemessage();
+                let validmessages = skyconnecttrackermodule.filterValidMessages(skyconnecttrackermodule.getMessageArrayFromResult(data));
+                expect(validmessages).to.be.an('array','result should be an array.');
+                expect(validmessages.length).to.equal(1);
             });
             it('Should throw an error on undefined message', function() {
                 expect(skyconnecttrackermodule.filterValidMessages.bind(skyconnecttrackermodule,undefined)).to.throw('Invalid parameter - messages must be an array. Found:undefined');
@@ -41,7 +83,7 @@ describe('All Unit Tests', function() {
                 expect(skyconnecttrackermodule.filterValidMessages.bind(skyconnecttrackermodule,null)).to.throw('Invalid parameter - messages must be an array. Found:null');
             });
             it('Should throw an error on empty object message', function() {
-                expect(skyconnecttrackermodule.filterValidMessages.bind(skyconnecttrackermodule,{})).to.throw('Invalid parameter - messages must be an array. Found:[object Object]');
+                expect(skyconnecttrackermodule.filterValidMessages.bind(skyconnecttrackermodule,{})).to.throw('Invalid parameter - messages must be an array. Found:{}');
             });
             it('Should throw an error on empty string message', function() {
                 expect(skyconnecttrackermodule.filterValidMessages.bind(skyconnecttrackermodule,'')).to.throw('Invalid parameter - messages must be an array. Found:');
@@ -65,7 +107,7 @@ describe('All Unit Tests', function() {
                 expect(skyconnecttrackermodule.latestMessagesPerUnit.bind(skyconnecttrackermodule,null)).to.throw('Invalid parameter - messages must be an array. Found:null');
             });
             it('Should throw an error on empty object message', function() {
-                expect(skyconnecttrackermodule.latestMessagesPerUnit.bind(skyconnecttrackermodule,{})).to.throw('Invalid parameter - messages must be an array. Found:[object Object]');
+                expect(skyconnecttrackermodule.latestMessagesPerUnit.bind(skyconnecttrackermodule,{})).to.throw('Invalid parameter - messages must be an array. Found:{}');
             });
             it('Should throw an error on empty string message', function() {
                 expect(skyconnecttrackermodule.latestMessagesPerUnit.bind(skyconnecttrackermodule,'')).to.throw('Invalid parameter - messages must be an array. Found:');
@@ -73,7 +115,7 @@ describe('All Unit Tests', function() {
         });
         describe('Validate json result', function() {
             it('Should return valid result', function() {
-                const data = testdata.valid_jsonfromxmlresult();
+                const data = testdata.valid_jsonfromxmlresult_multiple_messages();
                 let valid = skyconnecttrackermodule.validResult(data);
                 expect(valid).to.be.true;
             });

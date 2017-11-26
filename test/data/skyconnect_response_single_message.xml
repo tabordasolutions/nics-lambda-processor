@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SkyConnectData xmlns="http://www.skyconnecttracker.com/SkyConnect XML Format Release 9" DispatchTime="2017-10-26T14:09:03+00:00" Server="2">
+    <Message ID="387591664" Momsn="47251" Stale="No">
+        <IMEI>300224010840280</IMEI>
+        <Registration>N407KC</Registration>
+        <Client>KERN001</Client>
+        <Type>Position</Type>
+        <TripNumber>1612</TripNumber>
+        <Vehicle Type="UH1H">Helicopter</Vehicle>
+        <MultiMode>1</MultiMode>
+        <Software>4.7</Software>
+        <Rate>2</Rate>
+        <GPS>
+            <DateTime>2017-10-21T20:04:27+00:00</DateTime>
+            <Receiver>Internal</Receiver>
+            <Signal>NA</Signal>
+            <Latitude>38.855500</Latitude>
+            <Longitude>-94.799000</Longitude>
+            <Altitude units="Feet">0</Altitude>
+            <Heading units="degrees_true">0</Heading>
+            <Speed units="Knots">0</Speed>
+        </GPS>
+        <LbtSession>
+            <DateTime>2017-10-21T20:04:37+00:00</DateTime>
+            <Latitude>35.04168</Latitude>
+            <Longitude>-118.13441</Longitude>
+            <CEPRadius>4</CEPRadius>
+        </LbtSession>
+    </Message>
+    <SystemStatus>
+        <NetworkStatus>Redundant</NetworkStatus>
+        <AgentStatus>Dual</AgentStatus>
+        <IridiumMailStatus>Dual</IridiumMailStatus>
+        <Backlog Count="0">N</Backlog>
+    </SystemStatus>
+</SkyConnectData>

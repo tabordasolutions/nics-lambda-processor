@@ -7,13 +7,21 @@ let requestJsonData = (url) => new Promise((resolves, rejects) => {
     if (!url)
         rejects(new Error('Url parameter must contain a value.'));
     requestp(url)
-        .then((result) => {
-            let parser = new Parser({explicitArray: false, mergeAttrs: true, normalize: true, explicitCharkey:true});
-            new parser.parseString(result, (err,result) => err ? rejects(err) : resolves(result))
-        })
+        .then((result) => xmltojson(result))
+        .then(resultjson => resolves(resultjson))
         .catch((error) => rejects(error));
 });
 
+let xmltojson = (xml) => new Promise((resolves, rejects) => {
+    let parser = new Parser({explicitArray: false, mergeAttrs: true, normalize: true, explicitCharkey:true});
+    new parser.parseString(xml, (err,result) => err ? rejects(err) : resolves(result))
+});
+let getMessageArrayFromResult = (resultjson) => {
+    let messages = [];
+    if ((resultjson.SkyConnectData || {}).Message)
+        messages = (Array.isArray(resultjson.SkyConnectData.Message) ? resultjson.SkyConnectData.Message : new Array(resultjson.SkyConnectData.Message));
+    return messages;
+};
 let transformToGeoJson = (messages) => {
     let features = messages
         .map((message) => {
@@ -61,7 +69,7 @@ let transformToGeoJson = (messages) => {
 };
 
 let filterValidMessages = (messages) => {
-    if (!Array.isArray(messages)) throw new Error('Invalid parameter - messages must be an array. Found:' + messages );
+    if (!Array.isArray(messages)) throw new Error('Invalid parameter - messages must be an array. Found:' + JSON.stringify(messages) );
     return messages.filter((message) => {
         return (((message.GPS || {}).DateTime || {})._)
             && (((message.GPS || {}).Latitude || {})._)
@@ -71,7 +79,7 @@ let filterValidMessages = (messages) => {
 };
 
 let latestMessagesPerUnit = (messages) => {
-    if (!Array.isArray(messages)) throw new Error('Invalid parameter - messages must be an array. Found:' + messages );
+    if (!Array.isArray(messages)) throw new Error('Invalid parameter - messages must be an array. Found:' + JSON.stringify(messages) );
     let vehicleMap = {};
     messages.sort((a,b) => moment(b.GPS.DateTime._).unix() - moment(a.GPS.DateTime._).unix());
 
@@ -103,6 +111,8 @@ let createDescription = (feature) => {
 
 module.exports = exports = {
     requestJsonData: requestJsonData,
+    xmltojson: xmltojson,
+    getMessageArrayFromResult: getMessageArrayFromResult,
     transformToGeoJson : transformToGeoJson,
     latestMessagesPerUnit : latestMessagesPerUnit,
     filterValidMessages: filterValidMessages,
