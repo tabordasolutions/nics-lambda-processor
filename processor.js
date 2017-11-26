@@ -8,8 +8,6 @@ let etlskyconnectdata = (dboptions = dbconnectionparams, skyconnectoptions = sky
 
     const username = skyconnectoptions.user;
     const password = skyconnectoptions.password;
-    //let startTime = moment().subtract(1,'day');
-    //let timefilter = `<Time><Start>${startTime.format()}</Start></Time>`;
     let newRequestsOnly = skyconnectoptions.requestsnewmessagesonly;
     let requestparams = `?request=<Request xmlns=\'http://www.skyconnecttracker.com/SkyConnect XML Format Release 9\' RequestTime=\'${moment().format()}\' Server=\'Taborda1\'><Username>${username}</Username><Password>${password}</Password><DeliverData><newRecordsOnly>${newRequestsOnly}</newRecordsOnly><Format><TimeStamp>DateTime</TimeStamp></Format></DeliverData></Request>`;
     console.log('Requesting Primary service data from: ', skyconnectoptions.primaryhost);
@@ -40,7 +38,7 @@ let swaphosts = (skyconnectoptions) => {
 let processresult = (result, dboptions) => {
     if (!skytracker.validResult(result))
         throw new Error('Invalid result found in data. Result:' + JSON.stringify(result));
-    let validmessages = skytracker.filterValidMessages((result.SkyConnectData || {}).Message || []);
+    let validmessages = skytracker.filterValidMessages(skytracker.getMessageArrayFromResult(result));
     let latestmessages = skytracker.latestMessagesPerUnit(validmessages);
     let geoJsonResult = skytracker.transformToGeoJson(latestmessages);
     return db.upsertdb(feedname, geoJsonResult.features, dboptions)
