@@ -8,6 +8,7 @@ let requestJsonData = (url) => new Promise((resolves, rejects) => {
         rejects(new Error('Url parameter must contain a value.'));
     let options = {
         url: url,
+        timeout: 1500,
         agentOptions: { ciphers: 'DES-CBC3-SHA' } //Fixes "socket hangup" problem with outdated TLS 1.0 protocol. See: https://stackoverflow.com/questions/42545683/socket-hang-up-at-tlssocket-onhangup-when-connecting-to-iis6-server-with-tls-1-0
     };
 
