@@ -58,6 +58,39 @@ describe('All Unit Tests', function() {
                 expect(skyconnecttrackermodule.validResult).to.be.a('function');
             });
         });
+        describe('createDescription', function(){
+            it('Should be a function', function() {
+                expect(skyconnecttrackermodule.createDescription).to.be.a('function');
+            });
+            it('Should create a correct description when values are zero', function() {
+                const testfeaturezero = {
+                    "type": "Feature",
+                    "id": "TESTZERO",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [
+                            "-118.565833",
+                            "35.225000"
+                        ]
+                    },
+                    "properties": {
+                        "name": "TESTZERO",
+                        "lastupdate": "2017-10-26T23:32:01.000Z",
+                        "gpsdatetime": "2017-10-30T19:46:11.000Z",
+                        "altitude": "0",
+                        "altitudeunits": "Feet",
+                        "heading": "0",
+                        "headingunits": "degrees_true",
+                        "speed": "0",
+                        "speedunits": "Knots",
+                        "vehicle": "Helicopter",
+                        "vehicletype": "UH1H"
+                    }
+                };
+                expect(skyconnecttrackermodule.createDescription(testfeaturezero))
+                    .to.be.equal('<b>Registration:</b>TESTZERO<br/><b>Message Type:</b>N/A<br/><b>GPS Time:</b>10/30/2017 12:46:11 PM PDT<br/><b>Altitude:</b>0 Feet<br/><b>Heading:</b>0 degrees_true<br/><b>Speed:</b>0 Knots<br/><b>Vehicle:</b>Helicopter<br/><b>Vehicle Type:</b>UH1H<br/>');
+            });
+        });
         describe('filterValidMessages', function() {
             it('Should be a function', function() {
                 expect(skyconnecttrackermodule.filterValidMessages).to.be.a('function');
@@ -93,6 +126,7 @@ describe('All Unit Tests', function() {
             it('Should return data array with length = 2', function() {
                 const validmessages = testdata.valid_messages();
                 let filtered = skyconnecttrackermodule.latestMessagesPerUnit(validmessages);
+                //require('fs').writeFileSync('test/data/filtered_latestmessages.json', JSON.stringify(filtered));
                 expect(filtered).to.be.an('array','result should be an array.');
                 expect(filtered.length).to.be.equal(2);
                 expect(filtered[0].Registration._).to.be.equal('N408KC');
@@ -123,6 +157,7 @@ describe('All Unit Tests', function() {
         describe('Transform Latest messages to GeoJson', function() {
             it('Should return a FeatureCollection with 2 features and EPSG:4326 projection', function() {
                 let geoJsonResult = skyconnecttrackermodule.transformToGeoJson(testdata.filtered_latestmessages());
+                require('fs').writeFileSync('test/data/valid_geojson1.json', JSON.stringify(geoJsonResult));
                 expect(geoJsonResult).to.be.an('object');
                 expect(geoJsonResult.type).to.be.equal('FeatureCollection');
                 expect(geoJsonResult.crs.properties.name).to.be.equal('EPSG:4326');

@@ -1,106 +1,154 @@
 [
   {
-    "$": {
-      "ID": "387772687",
-      "Momsn": "56916",
-      "Stale": "No"
+    "ID": "388604105",
+    "Momsn": "57252",
+    "Stale": "No",
+    "IMEI": {
+      "_": "300224010847750"
     },
-    "IMEI": "300224010847750",
-    "Registration": "N408KC",
-    "Client": "KERN001",
-    "Type": "Position",
-    "TripNumber": "2089",
+    "Registration": {
+      "_": "N408KC"
+    },
+    "Client": {
+      "_": "KERN001"
+    },
+    "Type": {
+      "_": "Position"
+    },
+    "TripNumber": {
+      "_": "2100"
+    },
     "Vehicle": {
       "_": "Helicopter",
-      "$": {
-        "Type": "UH1H"
-      }
+      "Type": "UH1H"
     },
-    "MultiMode": "1",
-    "Software": "4.7",
-    "Rate": "2",
+    "MultiMode": {
+      "_": "1"
+    },
+    "Software": {
+      "_": "4.7"
+    },
+    "Rate": {
+      "_": "2"
+    },
     "GPS": {
-      "DateTime": "2017-10-23T16:03:26+00:00",
-      "Receiver": "Internal",
-      "Signal": "3D",
-      "Latitude": "37.811167",
-      "Longitude": "-121.445000",
+      "DateTime": {
+        "_": "2017-10-30T19:46:11+00:00"
+      },
+      "Receiver": {
+        "_": "Internal"
+      },
+      "Signal": {
+        "_": "3D"
+      },
+      "Latitude": {
+        "_": "35.225000"
+      },
+      "Longitude": {
+        "_": "-118.566167"
+      },
       "Altitude": {
-        "_": "1444",
-        "$": {
-          "units": "Feet"
-        }
+        "_": "2543",
+        "units": "Feet"
       },
       "Heading": {
-        "_": "118",
-        "$": {
-          "units": "degrees_true"
-        }
+        "_": "353",
+        "units": "degrees_true"
       },
       "Speed": {
-        "_": "102",
-        "$": {
-          "units": "Knots"
-        }
+        "_": "0",
+        "units": "Knots"
       }
     },
     "LbtSession": {
-      "DateTime": "2017-10-23T16:03:30+00:00",
-      "Latitude": "37.86212",
-      "Longitude": "-121.26790",
-      "CEPRadius": "3"
+      "DateTime": {
+        "_": "2017-10-30T19:46:19+00:00"
+      },
+      "Latitude": {
+        "_": "35.18911"
+      },
+      "Longitude": {
+        "_": "-118.55082"
+      },
+      "CEPRadius": {
+        "_": "3"
+      }
     }
   },
   {
-    "$": {
-      "ID": "387591664",
-      "Momsn": "47251",
-      "Stale": "No"
+    "ID": "388596627",
+    "Momsn": "47327",
+    "Stale": "No",
+    "IMEI": {
+      "_": "300224010840280"
     },
-    "IMEI": "300224010840280",
-    "Registration": "N407KC",
-    "Client": "KERN001",
-    "Type": "Position",
-    "TripNumber": "1612",
+    "Registration": {
+      "_": "N407KC"
+    },
+    "Client": {
+      "_": "KERN001"
+    },
+    "Type": {
+      "_": "Position"
+    },
+    "TripNumber": {
+      "_": "1614"
+    },
     "Vehicle": {
       "_": "Helicopter",
-      "$": {
-        "Type": "UH1H"
-      }
+      "Type": "UH1H"
     },
-    "MultiMode": "1",
-    "Software": "4.7",
-    "Rate": "2",
+    "MultiMode": {
+      "_": "1"
+    },
+    "Software": {
+      "_": "4.7"
+    },
+    "Rate": {
+      "_": "2"
+    },
     "GPS": {
-      "DateTime": "2017-10-21T20:04:27+00:00",
-      "Receiver": "Internal",
-      "Signal": "NA",
-      "Latitude": "38.855500",
-      "Longitude": "-94.799000",
+      "DateTime": {
+        "_": "2017-10-30T18:19:31+00:00"
+      },
+      "Receiver": {
+        "_": "Internal"
+      },
+      "Signal": {
+        "_": "3D"
+      },
+      "Latitude": {
+        "_": "35.131833"
+      },
+      "Longitude": {
+        "_": "-118.435833"
+      },
       "Altitude": {
-        "_": "0",
-        "$": {
-          "units": "Feet"
-        }
+        "_": "4032",
+        "units": "Feet"
       },
       "Heading": {
-        "_": "0",
-        "$": {
-          "units": "degrees_true"
-        }
+        "_": "195",
+        "units": "degrees_true"
       },
       "Speed": {
         "_": "0",
-        "$": {
-          "units": "Knots"
-        }
+        "units": "Knots"
       }
     },
     "LbtSession": {
-      "DateTime": "2017-10-21T20:04:37+00:00",
-      "Latitude": "35.04168",
-      "Longitude": "-118.13441",
-      "CEPRadius": "4"
+      "DateTime": {
+        "_": "2017-10-30T18:19:38+00:00"
+      },
+      "Latitude": {
+        "_": "35.14291"
+      },
+      "Longitude": {
+        "_": "-118.43166"
+      },
+      "CEPRadius": {
+        "_": "4"
+      }
     }
   }
 ]

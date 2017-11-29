@@ -1,6 +1,6 @@
 let requestp = require('request-promise-native'); //Adding native ES6 promises to request.
 let {Parser} = require('xml2js');
-const moment = require('moment');
+const moment = require('moment-timezone');
 
 let requestJsonData = (url) => new Promise((resolves, rejects) => {
 
@@ -106,12 +106,12 @@ let createDescription = (feature) => {
     let createEntry = (title, val) => `<b>${title}:</b>${val || 'N/A'}<br/>`;
     return createEntry('Registration', feature.properties.name) +
         createEntry('Message Type', feature.properties.messagetype) +
-        createEntry('GPS Time', moment(feature.properties.gpsdatetime)) +
-        createEntry('Altitude', `${(feature.properties.altitude || 'N/A')}  ${(feature.properties.altitudeunits || '')}`) +
-        createEntry('Heading', `${(feature.properties.heading || 'N/A')}  ${(feature.properties.headingunits || '')}`) +
-        createEntry('Speed', `${(feature.properties.speed || 'N/A')}  ${(feature.properties.speedunits || '')}`) +
-        createEntry('Vehicle', feature.properties.vehicle) + createEntry('Vehicle Type', feature.properties.vehicletype);
-
+        createEntry('GPS Time', moment(feature.properties.gpsdatetime).tz('America/Los_Angeles').format('l LTS z')) +
+        createEntry('Altitude', `${isNaN(feature.properties.altitude) ? 'N/A' : feature.properties.altitude} ${(feature.properties.altitudeunits || '')}`) +
+        createEntry('Heading', `${isNaN(feature.properties.heading) ? 'N/A' : feature.properties.heading} ${(feature.properties.headingunits || '')}`) +
+        createEntry('Speed', `${isNaN(feature.properties.speed) ? 'N/A' : feature.properties.speed} ${(feature.properties.speedunits || '')}`) +
+        createEntry('Vehicle', feature.properties.vehicle) +
+        createEntry('Vehicle Type', feature.properties.vehicletype);
 };
 
 module.exports = exports = {
@@ -121,6 +121,7 @@ module.exports = exports = {
     transformToGeoJson : transformToGeoJson,
     latestMessagesPerUnit : latestMessagesPerUnit,
     filterValidMessages: filterValidMessages,
-    validResult: validResult
+    validResult: validResult,
+    createDescription: createDescription
 };
 
